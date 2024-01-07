@@ -1,0 +1,82 @@
+
+<><> Team Info <><>  
+Team Size: 5
+Min. Partial Trait: 0
+
+<><> Unit Tier <><>  
+one     1
+two     1
+three   1
+four    1
+five    1
+
+
+++================================++
+Team Size: 5
+Total Traits: 4
+Partial Traits: 0
+
+Ahri (4)
+Akali (4)
+Annie (1)
+Seraphine (2)
+Vex (3)
+
+Emo: 2/2
+Executioner: 2/2
+KDA: 3/3
+Spellweaver: 3/3
+++================================++
+
+
+++================================++
+Team Size: 5
+Total Traits: 4
+Partial Traits: 0
+
+Ahri (4)
+Jhin (5)
+Lulu (3)
+Seraphine (2)
+Kaisa (2)
+
+Deadeye: 2/2
+Hyperpop: 1/1
+KDA: 3/3
+Spellweaver: 3/3
+++================================++
+
+
+++================================++
+Team Size: 5
+Total Traits: 3
+Partial Traits: 0
+
+Ahri (4)
+Jhin (5)
+Seraphine (2)
+Sona (5)
+Kaisa (2)
+
+Deadeye: 2/2
+KDA: 3/3
+Spellweaver: 3/3
+++================================++
+
+
+++================================++
+Team Size: 5
+Total Traits: 4
+Partial Traits: 0
+
+Kayle (2)
+Mordekaiser (3)
+Riven (3)
+Viego (4)
+Garen (2)
+
+8Bit: 2/2
+Edgelord: 3/3
+Pentakill: 3/3
+Sentinel: 2/2
+++================================++
