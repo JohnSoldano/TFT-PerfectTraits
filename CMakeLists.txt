@@ -16,12 +16,22 @@ include_directories(
 
 # Add the executable
 add_executable(
-    PerfectTraits
-    src/main.cpp
-    src/ParseCSV.cpp
-    src/Unit.cpp
-    src/Team.cpp
-    src/global.cpp
-    src/Trait.cpp
-    )
-# add_executable(tests tests/tests.cpp src/addition.cpp) # include necessary source files
+  PerfectTraits
+  src/main.cpp
+  src/ParseCSV.cpp
+  src/Unit.cpp
+  src/Team.cpp
+  src/global.cpp
+  src/Trait.cpp
+)
+
+# include necessary source files
+add_executable(
+  tests
+  tests/tests.cpp
+  src/ParseCSV.cpp
+  src/Unit.cpp
+  src/Team.cpp
+  src/global.cpp
+  src/Trait.cpp
+) 

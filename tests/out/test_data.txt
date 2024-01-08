@@ -1,0 +1,56 @@
+
+++================================++
+			1
+++================================++
+Team Size: 5
+Total Traits: 2
+Partial Traits: 9
+Avg Cost: 2.4
+
+Gragas (2)
+Gnar (2)
+Ekko (3)
+Bard (2)
+Lulu (3)
+
+Brawler: 1/2
+Dazzler: 1/2
+Fighter: 1/2
+Funk: 1/3
+Hyperpop: 1/1
+Jazz: 1/2
+Pentakill: 1/3
+Sentinel: 1/2
+Spellweaver: 3/3
+Superfan: 1/3
+TrueDamage: 1/2
+++================================++
+
+
+++================================++
+			1
+++================================++
+Team Size: 5
+Total Traits: 2
+Partial Traits: 9
+Avg Cost: 2.4
+
+Gragas (2)
+Gnar (2)
+Ekko (3)
+Bard (2)
+Lulu (3)
+
+Brawler: 1/2
+Dazzler: 1/2
+Fighter: 1/2
+Funk: 1/3
+Hyperpop: 1/1
+Jazz: 1/2
+Pentakill: 1/3
+Sentinel: 1/2
+Spellweaver: 3/3
+Superfan: 1/3
+TrueDamage: 1/2
+++================================++
+

@@ -2,6 +2,9 @@
 #include "Team.h"
 #include "Trait.h"
 #include "init.h"
+#include <fstream>
+#include <streambuf>
+#include <memory>
 
 // Place all units into a Class
 std::vector<Unit *> assignUnits(std::vector<std::vector<std::string>> units);
@@ -63,3 +66,9 @@ std::map<std::string, int> calculateTraitThreshold(std::tuple<int, int> tuple, i
 std::map<std::string, std::map<std::string, int>> calculateTeamTotals(std::unordered_map<std::string, int> currentTeamTraits, const TraitStruct & trait_data);
 
 std::map<std::string, int> scoreTeamTotals(std::map<std::string, std::map<std::string, int>> teamTotals);
+
+// Output data to csv format.
+void OutputCSV(std::string path, std::vector<Team *> final_teams);
+
+// Output data as txt format.
+void OutputTXT(std::string path, std::vector<Team *> final_teams);

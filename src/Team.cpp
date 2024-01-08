@@ -68,9 +68,12 @@ void Team::finalTeamDisplay() {
         // Display Size, Traits, etcs
         std::cout << std::endl;
         Team::dumbTableThing();
+        std::cout << "\t\tTeam ID: " << team_number << std::endl;
+        Team::dumbTableThing();
         std::cout << "Team Size: " << num_units << std::endl;
         std::cout << "Total Traits: " << totalTotal << std::endl;
         std::cout << "Partial Traits: " << totalPartial << std::endl;
+        std::cout << "Avg Cost: " << Team::getAvgCost() << std::endl;
         std::cout << std::endl;
 
         // Display Units...
@@ -86,3 +89,20 @@ void Team::finalTeamDisplay() {
         Team::dumbTableThing();
         std::cout << std::endl;
     }
+
+// Calculates team avg cost. This should only be called for
+// teams satisfying pass conditions.
+double Team::getAvgCost() {
+    size_t num_units = team.size();
+
+    // For all units within a team, store their cost into a vector.
+    std::vector<int> team_cost;
+    for (auto it : team) {
+        team_cost.push_back(it -> getCost());
+    }
+
+    int team_cost_total = std::accumulate(team_cost.begin(), team_cost.end(), 0);
+    double team_avg = static_cast<double>(team_cost_total) / num_units;
+    
+    return team_avg;
+}

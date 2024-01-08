@@ -121,4 +121,6 @@ CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\map \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_map.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\numeric \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_numeric.h

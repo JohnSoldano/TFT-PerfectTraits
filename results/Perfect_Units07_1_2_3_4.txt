@@ -1,0 +1,218 @@
+++================================++
+                Team ID: 7497070    
+++================================++
+Team Size: 7
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.57143
+
+Ahri (4)
+Akali (4)
+Amumu (3)
+Annie (1)
+Pantheon (2)
+Seraphine (2)
+Twitch (2)
+
+Emo: 2/2
+Executioner: 2/2
+Guardian: 2/2
+KDA: 3/3
+PunkRock: 2/2
+Spellweaver: 3/3
+++================================++
+
+++================================++
+                Team ID: 7497070    
+++================================++
+Team Size: 7
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.57143
+
+Ahri (4)
+Akali (4)
+Annie (1)
+Poppy (4)
+Seraphine (2)
+Twitch (2)
+Vi (1)
+
+Emo: 2/2
+Executioner: 2/2
+Fighter: 2/2
+KDA: 3/3
+PunkRock: 2/2
+Spellweaver: 3/3
+++================================++
+
+++================================++
+                Team ID: 7497078
+++================================++
+Team Size: 7
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.57143
+
+Ahri (4)
+Annie (1)
+Evelynn (1)
+Jax (2)
+Poppy (4)
+Seraphine (2)
+Zed (4)
+
+CrowdDive: 2/2
+EDM: 2/2
+Emo: 2/2
+Fighter: 2/2
+KDA: 3/3
+Spellweaver: 3/3
+++================================++
+
+++================================++
+                Team ID: 116 https://lolchess.gg/builder?deck=0608c45394fffdb15c128f861cc1909aa2d4fabc
+++================================++
+Team Size: 7
+Total Traits: 7
+Partial Traits: 0
+Avg Cost: 2.85714
+
+Aphelios (2)
+Caitlyn (4)
+Corki (1)
+Ezreal (4)
+Jax (2)
+Sett (3)
+Zac (4)
+
+8Bit: 2/2
+Brawler: 2/2
+Deadeye: 2/2
+EDM: 2/2
+Fighter: 2/2
+PopBand: 3/3
+Quickshot: 2/2
+++================================++
+
+++================================++
+                Team ID: 116 https://lolchess.gg/builder?deck=e395874b35cdba2e877045d52e99c0d919804f02
+++================================++
+Team Size: 7
+Total Traits: 7
+Partial Traits: 0
+Avg Cost: 2.57143
+
+Aphelios (2)
+Caitlyn (4)
+Jax (2)
+Sett (3)
+Zac (4)
+KSante (1)
+Garen (2)
+
+8Bit: 2/2
+Brawler: 2/2
+EDM: 2/2
+Fighter: 2/2
+PopBand: 3/3
+Quickshot: 2/2
+Sentinel: 2/2
+++================================++
+
+++================================++
+                Team ID: 116 https://lolchess.gg/builder?deck=9491f8e66a6e20fd4770f944773279775e639011
+++================================++
+Team Size: 7
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.85714
+
+Caitlyn (4)
+Jinx (1)
+Karthus (4)
+Kayle (2)
+Riven (3)
+Twitch (2)
+Viego (4)
+
+8Bit: 2/2
+Edgelord: 3/3
+Executioner: 2/2
+Pentakill: 3/3
+PunkRock: 2/2
+Quickshot: 2/2
+++================================++
+
+++================================++
+                Team ID: 0 https://lolchess.gg/builder?deck=e43aaa32de0f0fa6087e8b57f298b332b6b25ce4
+++================================++
+Team Size: 7
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.57143
+
+Caitlyn (4)
+Kayle (2)
+Mordekaiser (3)
+Senna (2)
+Viego (4)
+Yasuo (1)
+Garen (2)
+
+8Bit: 2/2
+Edgelord: 3/3
+Pentakill: 3/3
+Quickshot: 2/2
+Sentinel: 2/2
+TrueDamage: 2/2
+++================================++
+
+++================================++
+                Team ID: 0 https://lolchess.gg/builder?deck=3364fbbc5b1dc2793de23de0c3fc7c2ef654b357
+++================================++
+Team Size: 7
+Total Traits: 7
+Partial Traits: 0
+Avg Cost: 2.42857
+
+Corki (1)
+Ezreal (4)
+Jax (2)
+Sett (3)
+Zac (4)
+KSante (1)
+Garen (2)
+
+8Bit: 2/2
+Brawler: 2/2
+Deadeye: 2/2
+EDM: 2/2
+Fighter: 2/2
+PopBand: 3/3
+Sentinel: 2/2
+++================================++
+
+++================================++
+                Team ID: 7497070
+++================================++
+Team Size: 7
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.28571
+
+Jinx (1)
+Karthus (4)
+Kayle (2)
+Senna (2)
+Twitch (2)
+Viego (4)
+Yasuo (1)
+
+Edgelord: 3/3
+Executioner: 2/2
+Pentakill: 3/3
+PunkRock: 2/2
+Quickshot: 2/2
+TrueDamage: 2/2
+++================================++
