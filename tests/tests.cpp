@@ -1,54 +1,5 @@
 #include <tests.h>
 
-// std::map<std::string, int> UnitID_to_index(Units * units) {
-
-// }
-
-
-Team * GetTestTeam() {
-    // Load User Data
-    struct init {
-        std::string path_to_units = "Data/Set10/Units_v02.csv";
-        std::string path_to_traits = "Data/Set10/Traits_v02.csv";
-    };
-
-    init in;
-
-        // Parse Data
-    ParseCSV * csv = new ParseCSV(); 
-    std::vector<std::vector<std::string>> UnitData = csv -> parseData(in.path_to_units);
-    std::vector<std::vector<std::string>> TraitData = csv -> parseData(in.path_to_traits);
-    delete csv;
-
-    // Create Unit Objects
-    std::vector<Unit *> Units = assignUnits(UnitData);
-
-    // Create Trait Object and assign to data structure
-    std::vector<Trait *> Traits = assignTraits(TraitData);
-    TraitStruct traitStruct;
-    traitStruct.parse(Traits);
-
-    // Create a mapping between units and their index.
-    std::map<std::string, int> UnitID_to_index;
-    for (size_t i = 0; i < Units.size(); i++) {
-        UnitID_to_index[Units.at(i) -> getName()] = i;
-    }
-
-    std::vector<std::string> tmp = {"Gragas", "Gnar", "Ekko", "Bard", "Lulu"};
-    std::vector<Unit *> tmp_units;
-    for (auto & it : tmp) {
-        tmp_units.push_back(Units.at(UnitID_to_index[it]));
-    }
-
-    Team * tmp_team = new Team(tmp_units);
-    std::map<std::string, std::map<std::string, int>> team_totals = calculateTeamTotals(tmp_team -> getTraitCount(), traitStruct);
-    std::map<std::string, int> team_score = scoreTeamTotals(team_totals);
-    tmp_team -> setTeamTotal(team_totals);
-    tmp_team -> setTeamTotalScore(team_score);
-
-    return tmp_team;
-}
-
 void testDisplay() {
     // // Load User Data
     // struct init {
@@ -183,19 +134,78 @@ void OutputTXT_test(std::string path, std::vector<Team *> final_teams) {
     file.close();
 }
 
+
+std::vector<std::vector<int>> Comb_Test(int num_team, int num_units) {
+    // count number of combinations
+    std::vector<std::vector<int>> firstVec;
+
+    int count = 0;
+    int K = num_team;
+    int N = num_units;
+    std::string bitmask(K, 1); // K leading 1's
+    bitmask.resize(N, 0); // N - K trailing 0's
+
+    do {
+               // temporary vector containing champion indexes
+        std::vector<int> secondVec;
+
+        // create combination of champions
+        for (int i = 0; i < N; i++) { // [0..N-1] integers
+            if (bitmask[i]) {
+                secondVec.push_back(i);
+            }
+        }
+
+        firstVec.push_back(secondVec);
+
+    } while (std::prev_permutation(bitmask.begin(), bitmask.end()));
+
+    return firstVec;
+}
+
+
 int main() {
-    Team * test_team = GetTestTeam();
-    std::vector<Team *> test_final = {test_team, test_team};
+// Load User Data
+    init in;
+    in.filter = {1,1,1,0,0};
+    in.teamSize = 3;
+    in.minAlliances = 2;
 
-    test_team -> SetTeamNumber(1);
-    // test_team -> finalTeamDisplay();
+    // Parse Data
+    ParseCSV * csv = new ParseCSV(); 
+    std::vector<std::vector<std::string>> UnitData = csv -> parseData(in.path_to_units);
+    std::vector<std::vector<std::string>> TraitData = csv -> parseData(in.path_to_traits);
+    delete csv;
 
+    // Create Unit Objects
+    std::vector<Unit *> Units = assignUnits(UnitData);
+
+    // Create Trait Object and assign to data structure
+    std::vector<Trait *> Traits = assignTraits(TraitData);
+    TraitStruct traitStruct;
+    traitStruct.parse(Traits);
+    
+    // Filter Units by config
+    filterUnits(Units, in);
+
+    CombController * foo = new CombController(Units.size(), in.teamSize);
+    std::cout << foo -> Get_nCk_size() << std::endl;
+    in.displayConfig();
+
+    std::vector<Team> final_teams = foo -> FindTeams(Units, traitStruct, in);
+
+    for (auto & x : final_teams) {
+        x.finalTeamDisplay();
+    }
+
+    std::cout << "FINISH" << std::endl;
+
+    return 0;
     // OutputCSV_test("tests/out/test_data.csv", test_final);
 
-    OutputTXT_test("tests/out/test_data.txt", test_final);
+    // OutputTXT_test("tests/out/test_data.txt", test_final);
 
 
     // testDisplay();
 
-    return 0;
 }

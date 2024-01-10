@@ -1,0 +1,80 @@
+<><> Team Info <><>  
+Team Size: 6
+Min. Partial Trait: 0
+
+<><> Unit Tier <><>  
+one     1
+two     1
+three   1
+four    1
+five    0
+
+++================================++
+                Team ID: 7497078    https://lolchess.gg/builder?deck=2b99cc4a6291810caa3d1dee2345d9a1a044a80f
+++================================++
+Team Size: 6
+Total Traits: 7
+Partial Traits: 0
+Avg Cost: 2.5
+
+Ahri (4)
+Ekko (3)
+Kennen (1)
+Lillia (1)
+Lulu (3)
+Neeko (3)
+
+Guardian: 2/2
+Hyperpop: 1/1
+KDA: 3/3
+Sentinel: 2/2
+Spellweaver: 3/3
+Superfan: 3/3
+TrueDamage: 2/2
+++================================++
+
+++================================++
+                Team ID: 25959
+++================================++
+Team Size: 6
+Total Traits: 7
+Partial Traits: 0
+Avg Cost: 2.16667
+
+Ekko (3)
+Kennen (1)
+Lillia (1)
+Lulu (3)
+Neeko (3)
+Seraphine (2)
+
+Guardian: 2/2
+Hyperpop: 1/1
+KDA: 3/3
+Sentinel: 2/2
+Spellweaver: 3/3
+Superfan: 3/3
+TrueDamage: 2/2
+++================================++
+
+++================================++
+                Team ID: 101
+++================================++
+Team Size: 6
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.66667
+
+Jax (2)
+Katarina (2)
+Urgot (3)
+Zac (4)
+Zed (4)
+TahmKench (1)
+
+Brawler: 2/2
+Country: 3/3
+CrowdDive: 2/2
+EDM: 3/3
+Fighter: 2/2
+++================================++

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PerfectTraits.dir/src/CombController.cpp.obj"
+  "CMakeFiles/PerfectTraits.dir/src/CombController.cpp.obj.d"
   "CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.obj"
   "CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.obj.d"
   "CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj"

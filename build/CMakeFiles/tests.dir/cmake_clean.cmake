@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tests.dir/src/CombController.cpp.obj"
+  "CMakeFiles/tests.dir/src/CombController.cpp.obj.d"
   "CMakeFiles/tests.dir/src/ParseCSV.cpp.obj"
   "CMakeFiles/tests.dir/src/ParseCSV.cpp.obj.d"
   "CMakeFiles/tests.dir/src/Team.cpp.obj"

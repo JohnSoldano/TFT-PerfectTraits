@@ -1,0 +1,129 @@
+<><> Team Info <><>  
+Team Size: 4
+Min. Partial Trait: 0
+
+<><> Unit Tier <><>  
+one     1
+two     1
+three   1
+four    1
+five    1
+
+
+++================================++
+                Team ID: 7496960    
+++================================++
+Team Size: 4
+Total Traits: 4
+Partial Traits: 0
+Avg Cost: 2.5
+
+Amumu (3)
+Pantheon (2)
+Poppy (4)
+Vi (1)
+
+Emo: 2/2
+Fighter: 2/2
+Guardian: 2/2
+PunkRock: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 7496960    
+++================================++
+Team Size: 4
+Total Traits: 4
+Partial Traits: 0
+Avg Cost: 2.5
+
+Amumu (3)
+Pantheon (2)
+Twitch (2)
+Vex (3)
+
+Emo: 2/2
+Executioner: 2/2
+Guardian: 2/2
+PunkRock: 2/2
+++================================++
+
+++================================++
+                Team ID: 108
+++================================++
+Team Size: 4
+Total Traits: 4
+Partial Traits: 0
+Avg Cost: 3.75
+
+Bard (2)
+Jhin (5)
+Ziggs (5)
+MissFortune (3)
+
+Dazzler: 2/2
+Deadeye: 2/2
+Hyperpop: 1/1
+Jazz: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 7471205
+++================================++
+Team Size: 4
+Total Traits: 4
+Partial Traits: 0
+Avg Cost: 3.25
+
+Caitlyn (4)
+Corki (1)
+Lucian (5)
+MissFortune (3)
+
+8Bit: 2/2
+Deadeye: 2/2
+Jazz: 2/2
+Quickshot: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 25959
+++================================++
+Team Size: 4
+Total Traits: 4
+Partial Traits: 0
+Avg Cost: 4.25
+
+Illaoi (5)
+Lux (3)
+Zac (4)
+Ziggs (5)
+
+Brawler: 2/2
+Dazzler: 2/2
+EDM: 2/2
+Hyperpop: 1/1
+++================================++
+
+
+++================================++
+                Team ID: 7497070
+++================================++
+Team Size: 4
+Total Traits: 4
+Partial Traits: 0
+Avg Cost: 2.5
+
+Poppy (4)
+Twitch (2)
+Vex (3)
+Vi (1)
+
+Emo: 2/2
+Executioner: 2/2
+Fighter: 2/2
+PunkRock: 2/2
+++================================++

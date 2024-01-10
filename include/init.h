@@ -2,7 +2,6 @@
 #ifndef INIT_H
 #define INIT_H
 
-// #include <fstream>
 #include <vector>
 #include <string>
 #include <iostream>
@@ -46,9 +45,10 @@ struct init {
 	bool oneCost = 1;
     bool twoCost = 1;
     bool threeCost = 1;
-    bool fourCost = 1;
+    bool fourCost = 0;
     bool fiveCost = 0;
     std::vector<bool> filter = {oneCost, twoCost, threeCost, fourCost, fiveCost};
+
 
 	/**
 	 * =======================================================================
@@ -61,8 +61,9 @@ struct init {
 	 *      perfAlliances   =   Ignores teams that have ANY partial alliances
 	 * =======================================================================
 	 * */
-    int teamSize = 7;
-    int minAlliances = 0;    //
+    int teamSize = 3;
+
+    int minAlliances = 2;    // Minimum Partial alliances
     // bool perfAlliances = 1; // Enable: 1 || true // Disable: 0 || false
 
     void displayConfig() {

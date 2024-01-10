@@ -8,7 +8,7 @@
 #include <Unit.h>
 #include <fstream>
 #include <streambuf>
-
-// std::map<std::string, int> UnitID_to_index(Units * units);
+#include <algorithm>
+#include <CombController.h>
 
 #endif // TESTS_H

@@ -1,0 +1,223 @@
+
+
+==========================================================
+\							 /
+ \							/
+  ======================================================
+ 			Team Size: 4
+  ======================================================
+ /							\
+/							 \
+==========================================================
+
+https://lolchess.gg/builder?deck=c8d60ea720b0de970c21c98a12b6166ccb8bfc45
+
+Team Size: 4     
+Total Traits: 4  
+Partial Traits: 0
+
+Amumu (3)        
+Pantheon (2)     
+Twitch (2)       
+Vex (3)
+
+Emo: 2/2
+Executioner: 2/2 
+Guardian: 2/2
+PunkRock: 2/2    
+
+https://lolchess.gg/builder?deck=a7ccdf5965807b12b69165bcabc10727afb2a0e2
+
+Bard (2)
+Jhin (5)
+Ziggs (5)
+MissFortune (3)
+
+Dazzler: 2/2
+Deadeye: 2/2
+Hyperpop: 1/1
+Jazz: 2/2
+==========================================================
+\							 /
+ \							/
+  ======================================================
+ 			Team Size: 5
+  ======================================================
+ /							\
+/							 \
+==========================================================
+
+
+(!) https://lolchess.gg/builder?deck=162a9c81d812c372f6b4e0885e82228fe30f909a
+
+Kayle (2)
+Mordekaiser (3)
+Riven (3)
+Viego (4)
+Garen (2)
+
+8Bit: 2/2
+Edgelord: 3/3
+Pentakill: 3/3
+Sentinel: 2/2
+
+==========================================================
+\							 /
+ \							/
+  ======================================================
+ 			Team Size: 6
+  ======================================================
+ /							\
+/							 \
+==========================================================
+							
+https://lolchess.gg/builder?deck=2b99cc4a6291810caa3d1dee2345d9a1a044a80f
+
+Ahri (4) - Seraphine (2)
+Ekko (3)
+Kennen (1)
+Lillia (1)
+Lulu (3)
+Neeko (3)
+
+Guardian: 2/2
+Hyperpop: 1/1
+KDA: 3/3
+Sentinel: 2/2
+Spellweaver: 3/3
+Superfan: 3/3
+TrueDamage: 2/2
+
+(!) https://lolchess.gg/builder?deck=bb4563021491a49b8eb4564bb8454d3da54cc236
+
+Jax (2)
+Katarina (2)
+Urgot (3)
+Zac (4)
+Zed (4)
+TahmKench (1)
+
+Brawler: 2/2
+Country: 3/3
+CrowdDive: 2/2
+EDM: 3/3
+Fighter: 2/2
+
+(!) https://lolchess.gg/builder?deck=fc37766ef3595a8a70fdd3658454e4f8d80f089c
+Illaoi (5)
+Poppy (4)
+Samira (3)
+Urgot (3)
+Vex (3)
+TahmKench (1)
+
+Brawler: 2/2
+Country: 3/3
+Emo: 2/2
+Executioner: 2/2
+Fighter: 2/2
+==========================================================
+\							 /
+ \							/
+  ======================================================
+ 			Team Size: 7
+  ======================================================
+ /							\
+/							 \
+==========================================================
+
+https://lolchess.gg/builder?deck=ef0258e1f52830fab7ea86442555e700f780d008
+
+Ahri (4)
+Akali (4)
+Amumu (3)
+Annie (1)
+Pantheon (2)
+Seraphine (2)
+Twitch (2)
+
+Emo: 2/2
+Executioner: 2/2
+Guardian: 2/2
+KDA: 3/3
+PunkRock: 2/2
+Spellweaver: 3/3
+
+
+https://lolchess.gg/builder?deck=b28fdf4a389441d7716988a2f9ec692420d1ac55
+
+Ahri (4)
+Annie (1)
+Evelynn (1)
+Jax (2)
+Poppy (4)
+Seraphine (2)
+Zed (4)
+
+CrowdDive: 2/2
+EDM: 2/2
+Emo: 2/2
+Fighter: 2/2
+KDA: 3/3
+Spellweaver: 3/3
+
+
+(!) https://lolchess.gg/builder?deck=0d71d40bcce50583a2ff31c849d2e89555ca0d4f
+
+Aphelios (2)
+Caitlyn (4)
+Jax (2)
+Sett (3)
+Zac (4)
+KSante (1)
+Garen (2)
+
+8Bit: 2/2
+Brawler: 2/2
+EDM: 2/2
+Fighter: 2/2
+PopBand: 3/3
+Quickshot: 2/2
+Sentinel: 2/2
+
+https://lolchess.gg/builder?deck=e14468a8702f64e0f1766d9477781a51b2b0a9ad
+
+Corki (1)
+Ezreal (4)
+Jax (2)
+Sett (3)
+Zac (4)
+KSante (1)
+Garen (2)
+
+8Bit: 2/2
+Brawler: 2/2
+Deadeye: 2/2
+EDM: 2/2
+Fighter: 2/2
+PopBand: 3/3
+Sentinel: 2/2
+
+++================================++
+                Team ID: 0
+++================================++
+Team Size: 7
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.28571
+
+Aphelios (2)
+Kayn (5)
+Riven (3)
+Senna (2)
+Yasuo (1)
+KSante (1)
+Garen (2)
+
+8Bit: 2/2
+Edgelord: 3/3
+PopBand: 3/3
+Quickshot: 2/2
+Sentinel: 2/2
+TrueDamage: 2/2
+++================================++

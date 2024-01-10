@@ -1,3 +1,8 @@
+// global.h
+
+#ifndef GLOBAL_H
+#define GLOBAL_H
+
 #include "Unit.h"
 #include "Team.h"
 #include "Trait.h"
@@ -53,22 +58,25 @@ struct TraitStruct {
     }
 };
 
-// For a given trait, calculates the partial and total score.
-std::tuple<int, int> findTraitThreshold(std::vector<int> traitThreshold, int teamTraitTotal);
 
 // For a given trait, calculates the partial and total score.
-std::map<std::string, int> calculateTraitThreshold(std::tuple<int, int> tuple, int total);
+// std::tuple<int, int> findTraitThreshold(std::vector<int> traitThreshold, int teamTraitTotal);
 
-// The purpose of this class is to perform calculations for "Team Traits".
-// This will calculate `partialTraits`, `perfectTraits`, `totalTraits`, `teamCostAvg`,
-// etc,...
-// The class will be initialized with `currentTeamTraits` and the `subsetTraitMap`
-std::map<std::string, std::map<std::string, int>> calculateTeamTotals(std::unordered_map<std::string, int> currentTeamTraits, const TraitStruct & trait_data);
+// // For a given trait, calculates the partial and total score.
+// std::map<std::string, int> calculateTraitThreshold(std::tuple<int, int> tuple, int total);
 
-std::map<std::string, int> scoreTeamTotals(std::map<std::string, std::map<std::string, int>> teamTotals);
+// // The purpose of this class is to perform calculations for "Team Traits".
+// // This will calculate `partialTraits`, `perfectTraits`, `totalTraits`, `teamCostAvg`,
+// // etc,...
+// // The class will be initialized with `currentTeamTraits` and the `subsetTraitMap`
+// std::map<std::string, std::map<std::string, int>> calculateTeamTotals(std::unordered_map<std::string, int> currentTeamTraits, const TraitStruct & trait_data);
+
+// std::map<std::string, int> scoreTeamTotals(std::map<std::string, std::map<std::string, int>> teamTotals);
 
 // Output data to csv format.
-void OutputCSV(std::string path, std::vector<Team *> final_teams);
+void OutputCSV(std::string path, std::vector<Team> final_teams);
 
 // Output data as txt format.
-void OutputTXT(std::string path, std::vector<Team *> final_teams);
+void OutputTXT(std::string path, std::vector<Team> final_teams);
+
+#endif // GLOBAL_H

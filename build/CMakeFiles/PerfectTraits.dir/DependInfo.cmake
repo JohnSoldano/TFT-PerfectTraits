@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/MyProjects/TFT/TFT-PerfectTraits/src/CombController.cpp" "CMakeFiles/PerfectTraits.dir/src/CombController.cpp.obj" "gcc" "CMakeFiles/PerfectTraits.dir/src/CombController.cpp.obj.d"
   "D:/MyProjects/TFT/TFT-PerfectTraits/src/Team.cpp" "CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj" "gcc" "CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj.d"
   "D:/MyProjects/TFT/TFT-PerfectTraits/src/Trait.cpp" "CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj" "gcc" "CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj.d"
   "D:/MyProjects/TFT/TFT-PerfectTraits/src/Unit.cpp" "CMakeFiles/PerfectTraits.dir/src/Unit.cpp.obj" "gcc" "CMakeFiles/PerfectTraits.dir/src/Unit.cpp.obj.d"

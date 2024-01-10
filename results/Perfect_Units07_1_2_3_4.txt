@@ -194,7 +194,7 @@ Sentinel: 2/2
 ++================================++
 
 ++================================++
-                Team ID: 7497070
+                Team ID: 7497070 https://lolchess.gg/builder?deck=030e485e174c5fd5309a49a9efb2ca144a80ad83
 ++================================++
 Team Size: 7
 Total Traits: 6

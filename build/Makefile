@@ -141,6 +141,33 @@ tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
+src/CombController.obj: src/CombController.cpp.obj
+.PHONY : src/CombController.obj
+
+# target to build an object file
+src/CombController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/CombController.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/CombController.cpp.obj
+.PHONY : src/CombController.cpp.obj
+
+src/CombController.i: src/CombController.cpp.i
+.PHONY : src/CombController.i
+
+# target to preprocess a source file
+src/CombController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/CombController.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/CombController.cpp.i
+.PHONY : src/CombController.cpp.i
+
+src/CombController.s: src/CombController.cpp.s
+.PHONY : src/CombController.s
+
+# target to generate assembly for a file
+src/CombController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/CombController.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/CombController.cpp.s
+.PHONY : src/CombController.cpp.s
+
 src/ParseCSV.obj: src/ParseCSV.cpp.obj
 .PHONY : src/ParseCSV.obj
 
@@ -334,6 +361,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... PerfectTraits
 	@echo ... tests
+	@echo ... src/CombController.obj
+	@echo ... src/CombController.i
+	@echo ... src/CombController.s
 	@echo ... src/ParseCSV.obj
 	@echo ... src/ParseCSV.i
 	@echo ... src/ParseCSV.s

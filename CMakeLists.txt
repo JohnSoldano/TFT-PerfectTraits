@@ -23,6 +23,7 @@ add_executable(
   src/Team.cpp
   src/global.cpp
   src/Trait.cpp
+  src/CombController.cpp
 )
 
 # include necessary source files
@@ -34,4 +35,5 @@ add_executable(
   src/Team.cpp
   src/global.cpp
   src/Trait.cpp
+  src/CombController.cpp
 ) 

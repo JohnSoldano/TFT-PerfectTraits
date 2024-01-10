@@ -1,0 +1,539 @@
+<><> Team Info <><>  
+Team Size: 6
+Min. Partial Trait: 0
+
+<><> Unit Tier <><>  
+one     1
+two     1
+three   1
+four    1
+five    1
+
+++================================++
+                Team ID: 7497078    
+++================================++
+Team Size: 6
+Total Traits: 7
+Partial Traits: 0
+Avg Cost: 2.5
+
+Ahri (4)
+Ekko (3)
+Kennen (1)
+Lillia (1)
+Lulu (3)
+Neeko (3)
+
+Guardian: 2/2
+Hyperpop: 1/1
+KDA: 3/3
+Sentinel: 2/2
+Spellweaver: 3/3
+Superfan: 3/3
+TrueDamage: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 7497078
+++================================++
+Team Size: 6
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.83333
+
+Ahri (4)
+Ekko (3)
+Kennen (1)
+Lillia (1)
+Neeko (3)
+Sona (5)
+
+Guardian: 2/2
+KDA: 3/3
+Sentinel: 2/2
+Spellweaver: 3/3
+Superfan: 3/3
+TrueDamage: 2/2
+++================================++
+
+++================================++
+                Team ID: 0
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 3.33333
+
+Amumu (3)
+Illaoi (5)
+Poppy (4)
+Thresh (4)
+Urgot (3)
+TahmKench (1)
+
+Brawler: 2/2
+Country: 3/3
+Emo: 2/2
+Fighter: 2/2
+Guardian: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 0
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 3.16667
+
+Amumu (3)
+Illaoi (5)
+Samira (3)
+Thresh (4)
+Vex (3)
+TahmKench (1)
+
+Brawler: 2/2
+Country: 3/3
+Emo: 2/2
+Executioner: 2/2
+Guardian: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 116
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 3
+
+Aphelios (2)
+Caitlyn (4)
+Ezreal (4)
+Jhin (5)
+KSante (1)
+Garen (2)
+
+8Bit: 2/2
+Deadeye: 2/2
+PopBand: 3/3
+Quickshot: 2/2
+Sentinel: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 116
+++================================++
+Team Size: 6
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 3.66667
+
+Bard (2)
+Caitlyn (4)
+Corki (1)
+Jhin (5)
+Lucian (5)
+Ziggs (5)
+
+8Bit: 2/2
+Dazzler: 2/2
+Deadeye: 2/2
+Hyperpop: 1/1
+Jazz: 2/2
+Quickshot: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 116
+++================================++
+Team Size: 6
+Total Traits: 7
+Partial Traits: 0
+Avg Cost: 3.33333
+
+Bard (2)
+Caitlyn (4)
+Corki (1)
+Lucian (5)
+Ziggs (5)
+MissFortune (3)
+
+8Bit: 2/2
+Dazzler: 2/2
+Deadeye: 2/2
+Hyperpop: 1/1
+Jazz: 3/3
+Quickshot: 2/2
+++================================++
+
+++================================++
+                Team ID: 0
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 3.66667
+
+Bard (2)
+Illaoi (5)
+Jhin (5)
+Lux (3)
+Zac (4)
+MissFortune (3)
+
+Brawler: 2/2
+Dazzler: 2/2
+Deadeye: 2/2
+EDM: 2/2
+Jazz: 2/2
+++================================++
+
+++================================++
+                Team ID: 0
+++================================++
+Team Size: 6
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.33333
+
+Bard (2)
+Jax (2)
+Jinx (1)
+Lucian (5)
+Lux (3)
+Vi (1)
+
+Dazzler: 2/2
+EDM: 2/2
+Fighter: 2/2
+Jazz: 2/2
+PunkRock: 2/2
+Quickshot: 2/2
+++================================++
+
+++================================++
+                Team ID: 116
+++================================++
+Team Size: 6
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 3.5
+
+Bard (2)
+Lucian (5)
+Lux (3)
+Qiyana (5)
+Senna (2)
+Zed (4)
+
+CrowdDive: 2/2
+Dazzler: 2/2
+EDM: 2/2
+Jazz: 2/2
+Quickshot: 2/2
+TrueDamage: 2/2
+++================================++
+
+++================================++
+                Team ID: 0
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 2.83333
+
+Blitzcrank (4)
+Corki (1)
+Jhin (5)
+Nami (1)
+TwistedFate (4)
+Garen (2)
+
+8Bit: 2/2
+Dazzler: 2/2
+Deadeye: 2/2
+Funk: 3/3
+Sentinel: 2/2
+++================================++
+
+++================================++
+                Team ID: 7497078
+++================================++
+Team Size: 6
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 3.16667
+
+Caitlyn (4)
+Ekko (3)
+Lulu (3)
+Senna (2)
+Sona (5)
+Garen (2)
+
+8Bit: 2/2
+Hyperpop: 1/1
+Quickshot: 2/2
+Sentinel: 2/2
+Spellweaver: 3/3
+TrueDamage: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 25959
+++================================++
+Team Size: 6
+Total Traits: 7
+Partial Traits: 0
+Avg Cost: 2.16667
+
+Ekko (3)
+Kennen (1)
+Lillia (1)
+Lulu (3)
+Neeko (3)
+Seraphine (2)
+
+Guardian: 2/2
+Hyperpop: 1/1
+KDA: 3/3
+Sentinel: 2/2
+Spellweaver: 3/3
+Superfan: 3/3
+TrueDamage: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 25959
+++================================++
+Team Size: 6
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.5
+
+Ekko (3)
+Kennen (1)
+Lillia (1)
+Neeko (3)
+Seraphine (2)
+Sona (5)
+
+Guardian: 2/2
+KDA: 3/3
+Sentinel: 2/2
+Spellweaver: 3/3
+Superfan: 3/3
+TrueDamage: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 108
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 3.83333
+
+Ezreal (4)
+Jhin (5)
+Kayn (5)
+Qiyana (5)
+Yasuo (1)
+Yone (3)
+
+CrowdDive: 2/2
+Deadeye: 2/2
+Edgelord: 3/3
+PopBand: 3/3
+TrueDamage: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 0
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 3.33333
+
+Gragas (2)
+Illaoi (5)
+Lulu (3)
+Nami (1)
+Sona (5)
+TwistedFate (4)
+
+Brawler: 2/2
+Dazzler: 2/2
+Funk: 3/3
+Hyperpop: 1/1
+Spellweaver: 3/3
+++================================++
+
+++================================++
+                Team ID: 0
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 2.83333
+
+Illaoi (5)
+Jax (2)
+Katarina (2)
+Urgot (3)
+Zed (4)
+TahmKench (1)
+
+Brawler: 2/2
+Country: 3/3
+CrowdDive: 2/2
+EDM: 2/2
+Fighter: 2/2
+++================================++
+
+++================================++
+                Team ID: 0
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 2.83333
+
+Illaoi (5)
+Pantheon (2)
+Samira (3)
+Thresh (4)
+Twitch (2)
+TahmKench (1)
+
+Brawler: 2/2
+Country: 3/3
+Executioner: 2/2
+Guardian: 2/2
+PunkRock: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 7497078
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 2.66667
+
+Illaoi (5)
+Pantheon (2)
+Thresh (4)
+Urgot (3)
+Vi (1)
+TahmKench (1)
+
+Brawler: 2/2
+Country: 3/3
+Fighter: 2/2
+Guardian: 2/2
+PunkRock: 2/2
+++================================++
+
+++================================++
+                Team ID: 0
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 3.16667
+
+Illaoi (5)
+Poppy (4)
+Samira (3)
+Urgot (3)
+Vex (3)
+TahmKench (1)
+
+Brawler: 2/2
+Country: 3/3
+Emo: 2/2
+Executioner: 2/2
+Fighter: 2/2
+++================================++
+
+
+++================================++
+                Team ID: 0
+++================================++
+Team Size: 6
+Total Traits: 5
+Partial Traits: 0
+Avg Cost: 2.5
+
+Illaoi (5)
+Samira (3)
+Twitch (2)
+Urgot (3)
+Vi (1)
+TahmKench (1)
+
+Brawler: 2/2
+Country: 3/3
+Executioner: 2/2
+Fighter: 2/2
+PunkRock: 2/2
+++================================++
+
+++================================++
+                Team ID: 116
+++================================++
+Team Size: 6
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.5
+
+Jax (2)
+Jinx (1)
+Qiyana (5)
+Senna (2)
+Vi (1)
+Zed (4)
+
+CrowdDive: 2/2
+EDM: 2/2
+Fighter: 2/2
+PunkRock: 2/2
+Quickshot: 2/2
+TrueDamage: 2/2
+++================================++
+
+++================================++
+                Team ID: 101
+++================================++
+Team Size: 6
+Total Traits: 6
+Partial Traits: 0
+Avg Cost: 2.66667
+
+Jax (2)
+Katarina (2)
+Urgot (3)
+Zac (4)
+Zed (4)
+TahmKench (1)
+
+Brawler: 2/2
+Country: 3/3
+CrowdDive: 2/2
+EDM: 3/3
+Fighter: 2/2
+++================================++
