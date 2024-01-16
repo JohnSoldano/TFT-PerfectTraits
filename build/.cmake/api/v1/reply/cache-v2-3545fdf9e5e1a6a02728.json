@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/JPS/Desktop/TFT-PerfectTraits/build"
+			"value" : "d:/MyProjects/TFT/TFT-PerfectTraits/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "23"
+			"value" : "28"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -578,6 +578,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake."
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/MyProjects/TFT/TFT-PerfectTraits/build/CMakeFiles/pkgRedirects"
+		},
+		{
 			"name" : "CMAKE_GENERATOR",
 			"properties" : 
 			[
@@ -626,6 +638,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_GNUtoMS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Convert GNU import libraries to MS format (requires Visual Studio)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -635,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/JPS/Desktop/TFT-PerfectTraits"
+			"value" : "D:/MyProjects/TFT/TFT-PerfectTraits"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1335,7 +1359,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/CMake/share/cmake-3.23"
+			"value" : "C:/Program Files/CMake/share/cmake-3.28"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1546,6 +1570,22 @@
 			"value" : "C:/MinGW/bin/strip.exe"
 		},
 		{
+			"name" : "CMAKE_TAPI",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_TAPI-NOTFOUND"
+		},
+		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
 			"properties" : 
 			[
@@ -1571,7 +1611,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps"
+			"value" : "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1755,7 +1795,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/JPS/Desktop/TFT-PerfectTraits/build"
+			"value" : "D:/MyProjects/TFT/TFT-PerfectTraits/build"
 		},
 		{
 			"name" : "PerfectTraits_IS_TOP_LEVEL",
@@ -1779,7 +1819,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/JPS/Desktop/TFT-PerfectTraits"
+			"value" : "D:/MyProjects/TFT/TFT-PerfectTraits"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		},
 		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
@@ -1803,7 +1855,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-build"
+			"value" : "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-build"
 		},
 		{
 			"name" : "nlohmann_json_IS_TOP_LEVEL",
@@ -1827,7 +1879,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-src"
+			"value" : "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-src"
 		}
 	],
 	"kind" : "cache",

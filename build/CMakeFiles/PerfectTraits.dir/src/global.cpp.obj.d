@@ -1,8 +1,8 @@
 CMakeFiles/PerfectTraits.dir/src/global.cpp.obj: \
- C:\Users\JPS\Desktop\TFT-PerfectTraits\src\global.cpp \
- C:/Users/JPS/Desktop/TFT-PerfectTraits/include/global.h \
- C:/Users/JPS/Desktop/TFT-PerfectTraits/include/Team.h \
- C:/Users/JPS/Desktop/TFT-PerfectTraits/include/Unit.h \
+ D:\MyProjects\TFT\TFT-PerfectTraits\src\global.cpp \
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/global.h \
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/Team.h \
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/Unit.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -125,8 +125,8 @@ CMakeFiles/PerfectTraits.dir/src/global.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\numeric \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_numeric.h \
- C:/Users/JPS/Desktop/TFT-PerfectTraits/include/Trait.h \
- C:/Users/JPS/Desktop/TFT-PerfectTraits/include/init.h \
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/Trait.h \
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/init.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\fstream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\basic_file.h \

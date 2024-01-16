@@ -30,13 +30,17 @@ include_directories(
 add_executable(
   PerfectTraits
   src/main.cpp
+
   src/ParseCSV.cpp
   src/Unit.cpp
-  src/Team.cpp
-  src/global.cpp
-  src/Trait.cpp
-  src/CombController.cpp
-  src/TraitController.cpp
+  src/UnitController.cpp
+
+  # src/Team.cpp
+  # src/global.cpp
+  # src/Trait.cpp
+  # src/CombController.cpp
+  # src/TraitController.cpp
+  
 )
 
 target_link_libraries(PerfectTraits PRIVATE nlohmann_json::nlohmann_json)

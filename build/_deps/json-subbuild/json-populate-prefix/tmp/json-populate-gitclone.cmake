@@ -3,21 +3,21 @@
 
 cmake_minimum_required(VERSION 3.5)
 
-if(EXISTS "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitclone-lastrun.txt" AND EXISTS "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitinfo.txt" AND
-  "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitinfo.txt")
+if(EXISTS "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitclone-lastrun.txt" AND EXISTS "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitinfo.txt" AND
+  "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitclone-lastrun.txt" IS_NEWER_THAN "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitinfo.txt")
   message(STATUS
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitclone-lastrun.txt'"
+    "'D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitclone-lastrun.txt'"
   )
   return()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-src"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-src'")
+  message(FATAL_ERROR "Failed to remove directory: 'D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-src'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -25,9 +25,9 @@ set(error_code 1)
 set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
-    COMMAND "C:/Program Files/Git/cmd/git.exe" 
+    COMMAND "C:/Program Files/Git/cmd/git.exe"
             clone --no-checkout --config "advice.detachedHead=false" "https://github.com/nlohmann/json.git" "json-src"
-    WORKING_DIRECTORY "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps"
+    WORKING_DIRECTORY "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps"
     RESULT_VARIABLE error_code
   )
   math(EXPR number_of_tries "${number_of_tries} + 1")
@@ -40,9 +40,9 @@ if(error_code)
 endif()
 
 execute_process(
-  COMMAND "C:/Program Files/Git/cmd/git.exe" 
+  COMMAND "C:/Program Files/Git/cmd/git.exe"
           checkout "v3.10.5" --
-  WORKING_DIRECTORY "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-src"
+  WORKING_DIRECTORY "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
@@ -54,20 +54,20 @@ if(init_submodules)
   execute_process(
     COMMAND "C:/Program Files/Git/cmd/git.exe" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-src"
+    WORKING_DIRECTORY "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-src"
     RESULT_VARIABLE error_code
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-src'")
+  message(FATAL_ERROR "Failed to update submodules in: 'D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitinfo.txt" "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitinfo.txt" "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-gitclone-lastrun.txt'")
 endif()

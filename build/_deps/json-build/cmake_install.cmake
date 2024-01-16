@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-src
+# Install script for directory: D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

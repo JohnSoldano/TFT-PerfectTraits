@@ -1,6 +1,6 @@
 CMakeFiles/tests.dir/src/FunTimer.cpp.obj: \
- C:\Users\JPS\Desktop\TFT-PerfectTraits\src\FunTimer.cpp \
- C:/Users/JPS/Desktop/TFT-PerfectTraits/include/FunTimer.h \
+ D:\MyProjects\TFT\TFT-PerfectTraits\src\FunTimer.cpp \
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/FunTimer.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ctime \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \

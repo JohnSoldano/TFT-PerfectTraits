@@ -25,21 +25,21 @@
 // }
 
 // // Remove Units from the pool via filtering config.
-void filterUnits(std::vector<Unit *> & units, init in) {
-    int unitCost;
-    int filterValues;
+// void filterUnits(std::vector<Unit *> & units, init in) {
+//     int unitCost;
+//     int filterValues;
 
-    // Must go in reverse for iterative removal.
-    for (int i = units.size() - 1; i >= 0; i--) {
-        std::string name = units.at(i) -> getName();
-        int cost = units.at(i) -> getCost();
-        filterValues = in.filter.at(cost - 1);
+//     // Must go in reverse for iterative removal.
+//     for (int i = units.size() - 1; i >= 0; i--) {
+//         std::string name = units.at(i) -> getName();
+//         int cost = units.at(i) -> getCost();
+//         filterValues = in.filter.at(cost - 1);
 
-        if (filterValues == 0 || filterValues == false) {
-            units.erase(units.begin() + i);
-        }
-    }
-}
+//         if (filterValues == 0 || filterValues == false) {
+//             units.erase(units.begin() + i);
+//         }
+//     }
+// }
 
 // std::vector<Trait *> assignTraits(std::vector<std::vector<std::string>> traits) {
 //     std::vector<Trait *> all_traits;

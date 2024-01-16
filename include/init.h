@@ -8,6 +8,8 @@
 #include <map>
 
 struct init {
+    std::string path_to_units = "Data/Set10/Units_v02.csv";
+    std::string path_to_traits = "Data/Set10/Traits_v02.csv";
 /**
      * =====================================
      *      Save Output to file

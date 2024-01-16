@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "tests.exe"
+			"path" : "PerfectTraits.exe"
 		},
 		{
-			"path" : "tests.pdb"
+			"path" : "PerfectTraits.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -14,6 +14,7 @@
 		"commands" : 
 		[
 			"add_executable",
+			"target_link_libraries",
 			"include_directories"
 		],
 		"files" : 
@@ -28,11 +29,17 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 45,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
 				"file" : 0,
 				"line" : 23,
 				"parent" : 0
@@ -45,25 +52,37 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -std=gnu++1z"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "JSON_DIAGNOSTICS=0"
 				},
 				{
-					"fragment" : "-std=gnu++1z"
+					"backtrace" : 2,
+					"define" : "JSON_USE_IMPLICIT_CONVERSIONS=1"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
-					"path" : "C:/Users/JPS/Desktop/TFT-PerfectTraits/include"
+					"backtrace" : 3,
+					"path" : "D:/MyProjects/TFT/TFT-PerfectTraits/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/MyProjects/TFT/TFT-PerfectTraits/tests"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/MyProjects/TFT/TFT-PerfectTraits/src"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/JPS/Desktop/TFT-PerfectTraits/tests"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "C:/Users/JPS/Desktop/TFT-PerfectTraits/src"
+					"path" : "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-src/single_include"
 				}
 			],
 			"language" : "CXX",
@@ -71,18 +90,20 @@
 			{
 				"backtraces" : 
 				[
-					1
+					2
 				],
 				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3
 			]
 		}
 	],
-	"id" : "tests::@6890427a1f51a3e7e1df",
+	"id" : "PerfectTraits::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -102,8 +123,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "tests",
-	"nameOnDisk" : "tests.exe",
+	"name" : "PerfectTraits",
+	"nameOnDisk" : "PerfectTraits.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -116,7 +137,9 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3
 			]
 		}
 	],
@@ -125,13 +148,25 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "tests/tests.cpp",
+			"path" : "src/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/FunTimer.cpp",
+			"path" : "src/ParseCSV.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Unit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/UnitController.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

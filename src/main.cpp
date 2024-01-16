@@ -46,48 +46,57 @@
 
 */ 
 
-#include <fstream>
-#include <nlohmann/json.hpp>
 
 #include <init.h>
-#include "ParseCSV.h"
-#include <global.h>
-#include <ctime>
-#include <algorithm>
-#include "CombController.h"
-#include "TraitController.h"
+
+#include "UnitController.h"
+
+
+// #include <global.h>
+// #include <ctime>
+// #include <algorithm>
+// #include "CombController.h"
+// #include "TraitController.h"
 
 int main() {
-    // 
     init in;
 
+    // Initialize with path to data and filter
+    UnitController * unit_controller = new UnitController(in.path_to_units, in.filter);
+
+    // Get Final Units
+    auto Units = unit_controller -> GetAllUnits();
+
+
+
+
     // Parse Data
-    ParseCSV * csv = new ParseCSV("files.json");
+    // ParseCSV * csv = new ParseCSV("files.json");
 
     // Extract Units
-    auto Units = csv -> getUnits();
-    auto Traits = csv -> getTraitStruct();
+    // auto Units = csv -> getUnits();
+    // auto Traits = csv -> getTraitStruct();
     
     // Filter Units by config
-    filterUnits(Units, in);
+    // filterUnits(Units, in);
 
     // Find final teams.
-    CombController * combCtrl = new CombController(Units.size(), in.teamSize);
+    // CombController * combCtrl = new CombController(Units.size(), in.teamSize);
 
     // Remove this later
-    std::cout << combCtrl -> Get_nCk_size() << std::endl; // Reminder...
+    // std::cout << combCtrl -> Get_nCk_size() << std::endl; // Reminder...
 
     // Output to console
-    in.displayConfig();
+    // in.displayConfig();
 
     // FindTeams is broken..
-    for (const auto & it : Traits.myMap) {
-        std::cout << it.first << ": ";
-        for (const auto & jt : it.second -> getTraitThreshold()) {
-            std::cout << jt << " ";
-        }
-        std::cout << std::endl;
-    }
+    // for (const auto & it : Traits.myMap) {
+    //     std::cout << it.first << ": ";
+    //     for (const auto & jt : it.second -> getTraitThreshold()) {
+    //         std::cout << jt << " ";
+    //     }
+    //     std::cout << std::endl;
+    // }
 
     // Create final teams  
     // Return Passing teams in a vector

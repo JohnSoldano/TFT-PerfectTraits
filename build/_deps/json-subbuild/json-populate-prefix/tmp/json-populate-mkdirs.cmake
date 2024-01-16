@@ -4,16 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-src"
-  "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-build"
-  "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix"
-  "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/tmp"
-  "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp"
-  "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src"
-  "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp"
+  "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-src"
+  "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-build"
+  "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix"
+  "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/tmp"
+  "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp"
+  "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src"
+  "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/JPS/Desktop/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/${subDir}")
 endforeach()
+if(cfgdir)
+  file(MAKE_DIRECTORY "D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp${cfgdir}") # cfgdir has leading slash
+endif()
