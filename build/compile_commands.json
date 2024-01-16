@@ -49,38 +49,8 @@
 },
 {
   "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\tests.dir\\src\\ParseCSV.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\ParseCSV.cpp",
-  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/ParseCSV.cpp",
-  "output": "CMakeFiles/tests.dir/src/ParseCSV.cpp.obj"
-},
-{
-  "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\tests.dir\\src\\Unit.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\Unit.cpp",
-  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/Unit.cpp",
-  "output": "CMakeFiles/tests.dir/src/Unit.cpp.obj"
-},
-{
-  "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\tests.dir\\src\\Team.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\Team.cpp",
-  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/Team.cpp",
-  "output": "CMakeFiles/tests.dir/src/Team.cpp.obj"
-},
-{
-  "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\tests.dir\\src\\global.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\global.cpp",
-  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/global.cpp",
-  "output": "CMakeFiles/tests.dir/src/global.cpp.obj"
-},
-{
-  "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\tests.dir\\src\\Trait.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\Trait.cpp",
-  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/Trait.cpp",
-  "output": "CMakeFiles/tests.dir/src/Trait.cpp.obj"
-},
-{
-  "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\tests.dir\\src\\CombController.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\CombController.cpp",
-  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/CombController.cpp",
-  "output": "CMakeFiles/tests.dir/src/CombController.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\tests.dir\\src\\FunTimer.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\FunTimer.cpp",
+  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/FunTimer.cpp",
+  "output": "CMakeFiles/tests.dir/src/FunTimer.cpp.obj"
 }
 ]

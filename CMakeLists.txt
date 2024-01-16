@@ -30,10 +30,12 @@ add_executable(
 add_executable(
   tests
   tests/tests.cpp
-  src/ParseCSV.cpp
-  src/Unit.cpp
-  src/Team.cpp
-  src/global.cpp
-  src/Trait.cpp
-  src/CombController.cpp
+  src/FunTimer.cpp
+  
+  # src/ParseCSV.cpp
+  # src/Unit.cpp
+  # src/Team.cpp
+  # src/global.cpp
+  # src/Trait.cpp
+  # src/CombController.cpp
 ) 

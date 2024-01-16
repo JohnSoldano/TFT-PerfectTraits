@@ -83,121 +83,36 @@ CMakeFiles/tests.dir/tests/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/tests.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\tests\tests.cpp -o CMakeFiles\tests.dir\tests\tests.cpp.s
 
-CMakeFiles/tests.dir/src/ParseCSV.cpp.obj: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/src/ParseCSV.cpp.obj: CMakeFiles/tests.dir/includes_CXX.rsp
-CMakeFiles/tests.dir/src/ParseCSV.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/ParseCSV.cpp
-CMakeFiles/tests.dir/src/ParseCSV.cpp.obj: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/src/ParseCSV.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/ParseCSV.cpp.obj -MF CMakeFiles\tests.dir\src\ParseCSV.cpp.obj.d -o CMakeFiles\tests.dir\src\ParseCSV.cpp.obj -c D:\MyProjects\TFT\TFT-PerfectTraits\src\ParseCSV.cpp
+CMakeFiles/tests.dir/src/FunTimer.cpp.obj: CMakeFiles/tests.dir/flags.make
+CMakeFiles/tests.dir/src/FunTimer.cpp.obj: CMakeFiles/tests.dir/includes_CXX.rsp
+CMakeFiles/tests.dir/src/FunTimer.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/FunTimer.cpp
+CMakeFiles/tests.dir/src/FunTimer.cpp.obj: CMakeFiles/tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/src/FunTimer.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/FunTimer.cpp.obj -MF CMakeFiles\tests.dir\src\FunTimer.cpp.obj.d -o CMakeFiles\tests.dir\src\FunTimer.cpp.obj -c D:\MyProjects\TFT\TFT-PerfectTraits\src\FunTimer.cpp
 
-CMakeFiles/tests.dir/src/ParseCSV.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/ParseCSV.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyProjects\TFT\TFT-PerfectTraits\src\ParseCSV.cpp > CMakeFiles\tests.dir\src\ParseCSV.cpp.i
+CMakeFiles/tests.dir/src/FunTimer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/FunTimer.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyProjects\TFT\TFT-PerfectTraits\src\FunTimer.cpp > CMakeFiles\tests.dir\src\FunTimer.cpp.i
 
-CMakeFiles/tests.dir/src/ParseCSV.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/ParseCSV.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\ParseCSV.cpp -o CMakeFiles\tests.dir\src\ParseCSV.cpp.s
-
-CMakeFiles/tests.dir/src/Unit.cpp.obj: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/src/Unit.cpp.obj: CMakeFiles/tests.dir/includes_CXX.rsp
-CMakeFiles/tests.dir/src/Unit.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/Unit.cpp
-CMakeFiles/tests.dir/src/Unit.cpp.obj: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests.dir/src/Unit.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Unit.cpp.obj -MF CMakeFiles\tests.dir\src\Unit.cpp.obj.d -o CMakeFiles\tests.dir\src\Unit.cpp.obj -c D:\MyProjects\TFT\TFT-PerfectTraits\src\Unit.cpp
-
-CMakeFiles/tests.dir/src/Unit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/Unit.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyProjects\TFT\TFT-PerfectTraits\src\Unit.cpp > CMakeFiles\tests.dir\src\Unit.cpp.i
-
-CMakeFiles/tests.dir/src/Unit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/Unit.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\Unit.cpp -o CMakeFiles\tests.dir\src\Unit.cpp.s
-
-CMakeFiles/tests.dir/src/Team.cpp.obj: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/src/Team.cpp.obj: CMakeFiles/tests.dir/includes_CXX.rsp
-CMakeFiles/tests.dir/src/Team.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/Team.cpp
-CMakeFiles/tests.dir/src/Team.cpp.obj: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests.dir/src/Team.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Team.cpp.obj -MF CMakeFiles\tests.dir\src\Team.cpp.obj.d -o CMakeFiles\tests.dir\src\Team.cpp.obj -c D:\MyProjects\TFT\TFT-PerfectTraits\src\Team.cpp
-
-CMakeFiles/tests.dir/src/Team.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/Team.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyProjects\TFT\TFT-PerfectTraits\src\Team.cpp > CMakeFiles\tests.dir\src\Team.cpp.i
-
-CMakeFiles/tests.dir/src/Team.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/Team.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\Team.cpp -o CMakeFiles\tests.dir\src\Team.cpp.s
-
-CMakeFiles/tests.dir/src/global.cpp.obj: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/src/global.cpp.obj: CMakeFiles/tests.dir/includes_CXX.rsp
-CMakeFiles/tests.dir/src/global.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/global.cpp
-CMakeFiles/tests.dir/src/global.cpp.obj: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests.dir/src/global.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/global.cpp.obj -MF CMakeFiles\tests.dir\src\global.cpp.obj.d -o CMakeFiles\tests.dir\src\global.cpp.obj -c D:\MyProjects\TFT\TFT-PerfectTraits\src\global.cpp
-
-CMakeFiles/tests.dir/src/global.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/global.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyProjects\TFT\TFT-PerfectTraits\src\global.cpp > CMakeFiles\tests.dir\src\global.cpp.i
-
-CMakeFiles/tests.dir/src/global.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/global.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\global.cpp -o CMakeFiles\tests.dir\src\global.cpp.s
-
-CMakeFiles/tests.dir/src/Trait.cpp.obj: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/src/Trait.cpp.obj: CMakeFiles/tests.dir/includes_CXX.rsp
-CMakeFiles/tests.dir/src/Trait.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/Trait.cpp
-CMakeFiles/tests.dir/src/Trait.cpp.obj: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tests.dir/src/Trait.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Trait.cpp.obj -MF CMakeFiles\tests.dir\src\Trait.cpp.obj.d -o CMakeFiles\tests.dir\src\Trait.cpp.obj -c D:\MyProjects\TFT\TFT-PerfectTraits\src\Trait.cpp
-
-CMakeFiles/tests.dir/src/Trait.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/Trait.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyProjects\TFT\TFT-PerfectTraits\src\Trait.cpp > CMakeFiles\tests.dir\src\Trait.cpp.i
-
-CMakeFiles/tests.dir/src/Trait.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/Trait.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\Trait.cpp -o CMakeFiles\tests.dir\src\Trait.cpp.s
-
-CMakeFiles/tests.dir/src/CombController.cpp.obj: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/src/CombController.cpp.obj: CMakeFiles/tests.dir/includes_CXX.rsp
-CMakeFiles/tests.dir/src/CombController.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/CombController.cpp
-CMakeFiles/tests.dir/src/CombController.cpp.obj: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tests.dir/src/CombController.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/CombController.cpp.obj -MF CMakeFiles\tests.dir\src\CombController.cpp.obj.d -o CMakeFiles\tests.dir\src\CombController.cpp.obj -c D:\MyProjects\TFT\TFT-PerfectTraits\src\CombController.cpp
-
-CMakeFiles/tests.dir/src/CombController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/CombController.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyProjects\TFT\TFT-PerfectTraits\src\CombController.cpp > CMakeFiles\tests.dir\src\CombController.cpp.i
-
-CMakeFiles/tests.dir/src/CombController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/CombController.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\CombController.cpp -o CMakeFiles\tests.dir\src\CombController.cpp.s
+CMakeFiles/tests.dir/src/FunTimer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/FunTimer.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\FunTimer.cpp -o CMakeFiles\tests.dir\src\FunTimer.cpp.s
 
 # Object files for target tests
 tests_OBJECTS = \
 "CMakeFiles/tests.dir/tests/tests.cpp.obj" \
-"CMakeFiles/tests.dir/src/ParseCSV.cpp.obj" \
-"CMakeFiles/tests.dir/src/Unit.cpp.obj" \
-"CMakeFiles/tests.dir/src/Team.cpp.obj" \
-"CMakeFiles/tests.dir/src/global.cpp.obj" \
-"CMakeFiles/tests.dir/src/Trait.cpp.obj" \
-"CMakeFiles/tests.dir/src/CombController.cpp.obj"
+"CMakeFiles/tests.dir/src/FunTimer.cpp.obj"
 
 # External object files for target tests
 tests_EXTERNAL_OBJECTS =
 
 tests.exe: CMakeFiles/tests.dir/tests/tests.cpp.obj
-tests.exe: CMakeFiles/tests.dir/src/ParseCSV.cpp.obj
-tests.exe: CMakeFiles/tests.dir/src/Unit.cpp.obj
-tests.exe: CMakeFiles/tests.dir/src/Team.cpp.obj
-tests.exe: CMakeFiles/tests.dir/src/global.cpp.obj
-tests.exe: CMakeFiles/tests.dir/src/Trait.cpp.obj
-tests.exe: CMakeFiles/tests.dir/src/CombController.cpp.obj
+tests.exe: CMakeFiles/tests.dir/src/FunTimer.cpp.obj
 tests.exe: CMakeFiles/tests.dir/build.make
 tests.exe: CMakeFiles/tests.dir/linkLibs.rsp
 tests.exe: CMakeFiles/tests.dir/objects1.rsp
 tests.exe: CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable tests.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tests.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tests.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

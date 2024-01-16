@@ -147,7 +147,6 @@ src/CombController.obj: src/CombController.cpp.obj
 # target to build an object file
 src/CombController.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/CombController.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/CombController.cpp.obj
 .PHONY : src/CombController.cpp.obj
 
 src/CombController.i: src/CombController.cpp.i
@@ -156,7 +155,6 @@ src/CombController.i: src/CombController.cpp.i
 # target to preprocess a source file
 src/CombController.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/CombController.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/CombController.cpp.i
 .PHONY : src/CombController.cpp.i
 
 src/CombController.s: src/CombController.cpp.s
@@ -165,8 +163,31 @@ src/CombController.s: src/CombController.cpp.s
 # target to generate assembly for a file
 src/CombController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/CombController.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/CombController.cpp.s
 .PHONY : src/CombController.cpp.s
+
+src/FunTimer.obj: src/FunTimer.cpp.obj
+.PHONY : src/FunTimer.obj
+
+# target to build an object file
+src/FunTimer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/FunTimer.cpp.obj
+.PHONY : src/FunTimer.cpp.obj
+
+src/FunTimer.i: src/FunTimer.cpp.i
+.PHONY : src/FunTimer.i
+
+# target to preprocess a source file
+src/FunTimer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/FunTimer.cpp.i
+.PHONY : src/FunTimer.cpp.i
+
+src/FunTimer.s: src/FunTimer.cpp.s
+.PHONY : src/FunTimer.s
+
+# target to generate assembly for a file
+src/FunTimer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/FunTimer.cpp.s
+.PHONY : src/FunTimer.cpp.s
 
 src/ParseCSV.obj: src/ParseCSV.cpp.obj
 .PHONY : src/ParseCSV.obj
@@ -174,7 +195,6 @@ src/ParseCSV.obj: src/ParseCSV.cpp.obj
 # target to build an object file
 src/ParseCSV.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/ParseCSV.cpp.obj
 .PHONY : src/ParseCSV.cpp.obj
 
 src/ParseCSV.i: src/ParseCSV.cpp.i
@@ -183,7 +203,6 @@ src/ParseCSV.i: src/ParseCSV.cpp.i
 # target to preprocess a source file
 src/ParseCSV.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/ParseCSV.cpp.i
 .PHONY : src/ParseCSV.cpp.i
 
 src/ParseCSV.s: src/ParseCSV.cpp.s
@@ -192,7 +211,6 @@ src/ParseCSV.s: src/ParseCSV.cpp.s
 # target to generate assembly for a file
 src/ParseCSV.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/ParseCSV.cpp.s
 .PHONY : src/ParseCSV.cpp.s
 
 src/Team.obj: src/Team.cpp.obj
@@ -201,7 +219,6 @@ src/Team.obj: src/Team.cpp.obj
 # target to build an object file
 src/Team.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Team.cpp.obj
 .PHONY : src/Team.cpp.obj
 
 src/Team.i: src/Team.cpp.i
@@ -210,7 +227,6 @@ src/Team.i: src/Team.cpp.i
 # target to preprocess a source file
 src/Team.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Team.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Team.cpp.i
 .PHONY : src/Team.cpp.i
 
 src/Team.s: src/Team.cpp.s
@@ -219,7 +235,6 @@ src/Team.s: src/Team.cpp.s
 # target to generate assembly for a file
 src/Team.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Team.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Team.cpp.s
 .PHONY : src/Team.cpp.s
 
 src/Trait.obj: src/Trait.cpp.obj
@@ -228,7 +243,6 @@ src/Trait.obj: src/Trait.cpp.obj
 # target to build an object file
 src/Trait.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Trait.cpp.obj
 .PHONY : src/Trait.cpp.obj
 
 src/Trait.i: src/Trait.cpp.i
@@ -237,7 +251,6 @@ src/Trait.i: src/Trait.cpp.i
 # target to preprocess a source file
 src/Trait.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Trait.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Trait.cpp.i
 .PHONY : src/Trait.cpp.i
 
 src/Trait.s: src/Trait.cpp.s
@@ -246,7 +259,6 @@ src/Trait.s: src/Trait.cpp.s
 # target to generate assembly for a file
 src/Trait.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Trait.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Trait.cpp.s
 .PHONY : src/Trait.cpp.s
 
 src/Unit.obj: src/Unit.cpp.obj
@@ -255,7 +267,6 @@ src/Unit.obj: src/Unit.cpp.obj
 # target to build an object file
 src/Unit.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Unit.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Unit.cpp.obj
 .PHONY : src/Unit.cpp.obj
 
 src/Unit.i: src/Unit.cpp.i
@@ -264,7 +275,6 @@ src/Unit.i: src/Unit.cpp.i
 # target to preprocess a source file
 src/Unit.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Unit.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Unit.cpp.i
 .PHONY : src/Unit.cpp.i
 
 src/Unit.s: src/Unit.cpp.s
@@ -273,7 +283,6 @@ src/Unit.s: src/Unit.cpp.s
 # target to generate assembly for a file
 src/Unit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Unit.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Unit.cpp.s
 .PHONY : src/Unit.cpp.s
 
 src/global.obj: src/global.cpp.obj
@@ -282,7 +291,6 @@ src/global.obj: src/global.cpp.obj
 # target to build an object file
 src/global.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/global.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/global.cpp.obj
 .PHONY : src/global.cpp.obj
 
 src/global.i: src/global.cpp.i
@@ -291,7 +299,6 @@ src/global.i: src/global.cpp.i
 # target to preprocess a source file
 src/global.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/global.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/global.cpp.i
 .PHONY : src/global.cpp.i
 
 src/global.s: src/global.cpp.s
@@ -300,7 +307,6 @@ src/global.s: src/global.cpp.s
 # target to generate assembly for a file
 src/global.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/global.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/global.cpp.s
 .PHONY : src/global.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -364,6 +370,9 @@ help:
 	@echo ... src/CombController.obj
 	@echo ... src/CombController.i
 	@echo ... src/CombController.s
+	@echo ... src/FunTimer.obj
+	@echo ... src/FunTimer.i
+	@echo ... src/FunTimer.s
 	@echo ... src/ParseCSV.obj
 	@echo ... src/ParseCSV.i
 	@echo ... src/ParseCSV.s

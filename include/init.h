@@ -61,9 +61,9 @@ struct init {
 	 *      perfAlliances   =   Ignores teams that have ANY partial alliances
 	 * =======================================================================
 	 * */
-    int teamSize = 3;
+    int teamSize = 4;
 
-    int minAlliances = 2;    // Minimum Partial alliances
+    int minAlliances = 0;    // Minimum Partial alliances
     // bool perfAlliances = 1; // Enable: 1 || true // Disable: 0 || false
 
     void displayConfig() {
@@ -78,7 +78,6 @@ struct init {
             std::cout << tiers.at(i) << "\t" << filter.at(i) << std::endl;
         }
         std::cout << std::endl;
-
     }
 };
 

@@ -86,8 +86,8 @@ int main() {
     std::vector<Team> final_teams = combCtrl -> FindTeams(Units, traitStruct, in);
 
     // Save output
-    OutputTXT("results/TEST_A.txt", final_teams);
-    OutputCSV("results/TEST_A.csv", final_teams);
+    // OutputTXT("results/P0_L8_12345.txt", final_teams);
+    // OutputCSV("results/P0_L8_12345", final_teams);
 
     return 0;
 }
