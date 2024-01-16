@@ -10,6 +10,7 @@
 #include <algorithm>
 #include <iostream>
 #include <ctime>
+#include "TraitController.h"
 
 class CombController {
     private:
@@ -108,7 +109,7 @@ class CombController {
         // This will calculate `partialTraits`, `perfectTraits`, `totalTraits`, `teamCostAvg`,
         // etc,...
         // The class will be initialized with `currentTeamTraits` and the `subsetTraitMap`
-        std::map<std::string, std::map<std::string, int>> calculateTeamTotals(std::unordered_map<std::string, int> currentTeamTraits, const TraitStruct & trait_data) {
+        std::map<std::string, std::map<std::string, int>> calculateTeamTotals(std::unordered_map<std::string, int> currentTeamTraits, TraitController::TraitStruct trait_data) {
             // A mapping between `totalTraits`, `partialTraits`, `perfectTraits` and `teamAvgCost`.
             std::map<std::string, std::map<std::string, int>> teamTotals;
 
@@ -153,6 +154,6 @@ class CombController {
         ~CombController();
 
         int Get_nCk_size() { return nCk_size; }
-        std::vector<Team> FindTeams(std::vector<Unit *> units, const TraitStruct & traits, init in);
+        std::vector<Team> FindTeams(std::vector<Unit *> units, TraitController::TraitStruct traits, init in);
 };
 #endif // COMBCONTROLLER_H

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj.d"
   "CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj"
   "CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj.d"
+  "CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj"
+  "CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj.d"
   "CMakeFiles/PerfectTraits.dir/src/Unit.cpp.obj"
   "CMakeFiles/PerfectTraits.dir/src/Unit.cpp.obj.d"
   "CMakeFiles/PerfectTraits.dir/src/global.cpp.obj"

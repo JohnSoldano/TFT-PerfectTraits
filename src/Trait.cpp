@@ -9,6 +9,7 @@ Trait::Trait(std::string t, std::vector<int> thresh) {
     for (auto & x : thresh) {
         threshold.push_back(x);
     }
+
 }
 
 Trait::~Trait() {

@@ -261,6 +261,30 @@ src/Trait.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Trait.cpp.s
 .PHONY : src/Trait.cpp.s
 
+src/TraitController.obj: src/TraitController.cpp.obj
+.PHONY : src/TraitController.obj
+
+# target to build an object file
+src/TraitController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj
+.PHONY : src/TraitController.cpp.obj
+
+src/TraitController.i: src/TraitController.cpp.i
+.PHONY : src/TraitController.i
+
+# target to preprocess a source file
+src/TraitController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.i
+.PHONY : src/TraitController.cpp.i
+
+src/TraitController.s: src/TraitController.cpp.s
+.PHONY : src/TraitController.s
+
+# target to generate assembly for a file
+src/TraitController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.s
+.PHONY : src/TraitController.cpp.s
+
 src/Unit.obj: src/Unit.cpp.obj
 .PHONY : src/Unit.obj
 
@@ -382,6 +406,9 @@ help:
 	@echo ... src/Trait.obj
 	@echo ... src/Trait.i
 	@echo ... src/Trait.s
+	@echo ... src/TraitController.obj
+	@echo ... src/TraitController.i
+	@echo ... src/TraitController.s
 	@echo ... src/Unit.obj
 	@echo ... src/Unit.i
 	@echo ... src/Unit.s

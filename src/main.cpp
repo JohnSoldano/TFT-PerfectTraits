@@ -51,6 +51,7 @@
 #include <ctime>
 #include <algorithm>
 #include "CombController.h"
+#include "TraitController.h"
 
 int main() {
     // Load User Data
@@ -65,14 +66,13 @@ int main() {
     // Create Unit Objects
     std::vector<Unit *> Units = assignUnits(UnitData);
 
-    // Create Trait Object and assign to data structure
-    std::vector<Trait *> Traits = assignTraits(TraitData);
-    TraitStruct traitStruct;
-    traitStruct.parse(Traits);
-    
+
+    TraitController * traitController = new TraitController(TraitData);
+    // auto traitStruct = traitController -> GetTraitStruct();
+
     // Filter Units by config
     filterUnits(Units, in);
-    
+
     // Find final teams.
     CombController * combCtrl = new CombController(Units.size(), in.teamSize);
 
@@ -82,8 +82,9 @@ int main() {
     // Output to console
     in.displayConfig();
 
+    // Create final teams  
     // Return Passing teams in a vector
-    std::vector<Team> final_teams = combCtrl -> FindTeams(Units, traitStruct, in);
+    // std::vector<Team> final_teams = combCtrl -> FindTeams(Units, traitController -> GetTraitStruct(), in);
 
     // Save output
     // OutputTXT("results/P0_L8_12345.txt", final_teams);

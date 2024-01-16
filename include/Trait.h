@@ -9,6 +9,8 @@ class Trait {
     private:
         std::string trait_id;
         std::vector<int> threshold;
+        // TraitStruct trait_struct;
+
     public:
         Trait(std::string t, std::vector<int> thresh);
         ~Trait();

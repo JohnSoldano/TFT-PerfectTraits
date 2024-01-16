@@ -157,4 +157,6 @@ CMakeFiles/PerfectTraits.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uniform_int_dist.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\limits \
  D:/MyProjects/TFT/TFT-PerfectTraits/include/CombController.h \
- D:/MyProjects/TFT/TFT-PerfectTraits/include/global.h
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/global.h \
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/TraitController.h \
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/TraitController.h

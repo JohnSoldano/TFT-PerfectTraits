@@ -24,6 +24,7 @@ add_executable(
   src/global.cpp
   src/Trait.cpp
   src/CombController.cpp
+  src/TraitController.cpp
 )
 
 # include necessary source files

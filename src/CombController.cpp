@@ -11,7 +11,7 @@ CombController::~CombController() {
 
 }
 
-std::vector<Team> CombController::FindTeams(std::vector<Unit *> units, const TraitStruct & traits, init in) {
+std::vector<Team> CombController::FindTeams(std::vector<Unit *> units, TraitController::TraitStruct traits, init in) {
     int count = 0;
     const clock_t begin_time = clock();
     std::vector<Team> final_teams;
