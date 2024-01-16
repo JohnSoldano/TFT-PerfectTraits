@@ -3,7 +3,7 @@
 #ifndef GLOBAL_H
 #define GLOBAL_H
 
-#include "Unit.h"
+
 #include "Team.h"
 #include "Trait.h"
 #include "init.h"
@@ -12,14 +12,14 @@
 #include <memory>
 
 // Place all units into a Class
-std::vector<Unit *> assignUnits(std::vector<std::vector<std::string>> units);
+// std::vector<Unit *> assignUnits(std::vector<std::vector<std::string>> units);
 
 // Remove Units from the pool via filtering config.
 void filterUnits(std::vector<Unit *> & units, init in);
 
 
 // Using data from parsed `Traits.csv`, mapping between `Trait` and `Trait` object.
-std::vector<Trait *> assignTraits(std::vector<std::vector<std::string>> traits);
+// std::vector<Trait *> assignTraits(std::vector<std::vector<std::string>> traits);
 
 // More elegant Trait data structure?
 struct TraitStruct {

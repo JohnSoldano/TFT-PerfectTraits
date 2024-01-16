@@ -11,7 +11,7 @@ CombController::~CombController() {
 
 }
 
-std::vector<Team> CombController::FindTeams(std::vector<Unit *> units, TraitController::TraitStruct traits, init in) {
+std::vector<Team> CombController::FindTeams(std::vector<Unit *> units, ParseCSV::TraitStruct traits, init in) {
     int count = 0;
     const clock_t begin_time = clock();
     std::vector<Team> final_teams;
@@ -47,7 +47,7 @@ std::vector<Team> CombController::FindTeams(std::vector<Unit *> units, TraitCont
             // Convert pointer to object for returning..
             Team tmp_team2 = * tmp_team;
             final_teams.push_back(tmp_team2);
-        }        
+        }
 
         // Generate the next combination
         int i;

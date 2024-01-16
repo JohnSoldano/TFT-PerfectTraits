@@ -1,6 +1,6 @@
 CMakeFiles/tests.dir/tests/tests.cpp.obj: \
- D:\MyProjects\TFT\TFT-PerfectTraits\tests\tests.cpp \
- D:\MyProjects\TFT\TFT-PerfectTraits\tests\tests.h \
+ C:\Users\JPS\Desktop\TFT-PerfectTraits\tests\tests.cpp \
+ C:\Users\JPS\Desktop\TFT-PerfectTraits\tests\tests.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -101,7 +101,7 @@ CMakeFiles/tests.dir/tests/tests.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
- D:/MyProjects/TFT/TFT-PerfectTraits/include/FunTimer.h \
+ C:/Users/JPS/Desktop/TFT-PerfectTraits/include/FunTimer.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ctime c:\mingw\include\time.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\algorithm \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\utility \

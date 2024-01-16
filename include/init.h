@@ -5,11 +5,9 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <map>
 
 struct init {
-    // Data..
-    std::string path_to_units = "Data/Set10/Units_v02.csv";
-    std::string path_to_traits = "Data/Set10/Traits_v02.csv";
 /**
      * =====================================
      *      Save Output to file
@@ -63,7 +61,7 @@ struct init {
 	 * */
     int teamSize = 4;
 
-    int minAlliances = 0;    // Minimum Partial alliances
+    int minAlliances = 1;    // Minimum Partial alliances
     // bool perfAlliances = 1; // Enable: 1 || true // Disable: 0 || false
 
     void displayConfig() {

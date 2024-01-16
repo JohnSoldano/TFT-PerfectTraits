@@ -1,6 +1,6 @@
 CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj: \
- D:\MyProjects\TFT\TFT-PerfectTraits\src\TraitController.cpp \
- D:/MyProjects/TFT/TFT-PerfectTraits/include/TraitController.h \
+ C:\Users\JPS\Desktop\TFT-PerfectTraits\src\TraitController.cpp \
+ C:/Users/JPS/Desktop/TFT-PerfectTraits/include/TraitController.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\unordered_map \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\utility \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
@@ -90,7 +90,7 @@ CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable_policy.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_map.h \
- D:/MyProjects/TFT/TFT-PerfectTraits/include/Trait.h \
+ C:/Users/JPS/Desktop/TFT-PerfectTraits/include/Trait.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \

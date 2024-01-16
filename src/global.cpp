@@ -1,30 +1,30 @@
 #include "global.h"
 
-// Place all units into a Class
-std::vector<Unit *> assignUnits(std::vector<std::vector<std::string>> units) {
-    std::vector<Unit *> allUnits;
+// // Place all units into a Class
+// std::vector<Unit *> assignUnits(std::vector<std::vector<std::string>> units) {
+//     std::vector<Unit *> allUnits;
 
-    for (int i = 1; i < units.size() - 1; i++) { // Why must I subtract 1?
+//     for (int i = 1; i < units.size() - 1; i++) { // Why must I subtract 1?
 
-        // Temporary row containing info
-        std::vector<std::string> U = units[i];
-        int row_len = U.size();
-        int tier = std::stoi(U.at(1));
+//         // Temporary row containing info
+//         std::vector<std::string> U = units[i];
+//         int row_len = U.size();
+//         int tier = std::stoi(U.at(1));
 
-        // create traits vec
-        std::vector<std::string> traits;
-        for (int k = 2; k < row_len; k++) {
-            traits.push_back(U.at(k));
-        }
+//         // create traits vec
+//         std::vector<std::string> traits;
+//         for (int k = 2; k < row_len; k++) {
+//             traits.push_back(U.at(k));
+//         }
 
-        Unit *myUnit = new Unit(U.at(0), tier, traits);
-        allUnits.push_back(myUnit);
-    }
+//         Unit *myUnit = new Unit(U.at(0), tier, traits);
+//         allUnits.push_back(myUnit);
+//     }
 
-    return allUnits;
-}
+//     return allUnits;
+// }
 
-// Remove Units from the pool via filtering config.
+// // Remove Units from the pool via filtering config.
 void filterUnits(std::vector<Unit *> & units, init in) {
     int unitCost;
     int filterValues;
@@ -41,25 +41,25 @@ void filterUnits(std::vector<Unit *> & units, init in) {
     }
 }
 
-std::vector<Trait *> assignTraits(std::vector<std::vector<std::string>> traits) {
-    std::vector<Trait *> all_traits;
+// std::vector<Trait *> assignTraits(std::vector<std::vector<std::string>> traits) {
+//     std::vector<Trait *> all_traits;
 
-    //  Iterate Rows
-    // `trait.size()` has been subtracted by 1 due to fix poor parsing code.
-    for (size_t i = 1; i < traits.size() - 1; i++) {
-        std::string trait_id = traits.at(i).at(0);
-        std::vector<int> trait_threshold;
+//     //  Iterate Rows
+//     // `trait.size()` has been subtracted by 1 due to fix poor parsing code.
+//     for (size_t i = 1; i < traits.size() - 1; i++) {
+//         std::string trait_id = traits.at(i).at(0);
+//         std::vector<int> trait_threshold;
 
-        // Iterate Columns
-        for (size_t j = 1; j < traits.at(i).size(); j++) {
-            trait_threshold.push_back(std::stoi(traits.at(i).at(j)));
-        }
+//         // Iterate Columns
+//         for (size_t j = 1; j < traits.at(i).size(); j++) {
+//             trait_threshold.push_back(std::stoi(traits.at(i).at(j)));
+//         }
 
-        Trait * tmp_trait = new Trait(trait_id, trait_threshold);
-        all_traits.push_back(tmp_trait);
-    }
-    return all_traits;
-}
+//         Trait * tmp_trait = new Trait(trait_id, trait_threshold);
+//         all_traits.push_back(tmp_trait);
+//     }
+//     return all_traits;
+// }
 
 
 // Output data to csv format.

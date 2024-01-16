@@ -1,3 +1,3 @@
 "C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\PerfectTraits.dir/objects.a
 C:\MinGW\bin\ar.exe qc CMakeFiles\PerfectTraits.dir/objects.a @CMakeFiles\PerfectTraits.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\PerfectTraits.dir/objects.a -Wl,--no-whole-archive -o PerfectTraits.exe -Wl,--out-implib,libPerfectTraits.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PerfectTraits.dir\linkLibs.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\PerfectTraits.dir/objects.a -Wl,--no-whole-archive -o PerfectTraits.exe -Wl,--out-implib,libPerfectTraits.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PerfectTraits.dir\linklibs.rsp

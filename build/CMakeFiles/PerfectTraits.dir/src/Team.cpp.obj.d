@@ -1,7 +1,7 @@
 CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: \
- D:\MyProjects\TFT\TFT-PerfectTraits\src\Team.cpp \
- D:/MyProjects/TFT/TFT-PerfectTraits/include/Team.h \
- D:/MyProjects/TFT/TFT-PerfectTraits/include/Unit.h \
+ C:\Users\JPS\Desktop\TFT-PerfectTraits\src\Team.cpp \
+ C:/Users/JPS/Desktop/TFT-PerfectTraits/include/Team.h \
+ C:/Users/JPS/Desktop/TFT-PerfectTraits/include/Unit.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \

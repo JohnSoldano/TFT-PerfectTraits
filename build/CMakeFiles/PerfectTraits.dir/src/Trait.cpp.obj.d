@@ -1,6 +1,6 @@
 CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj: \
- D:\MyProjects\TFT\TFT-PerfectTraits\src\Trait.cpp \
- D:/MyProjects/TFT/TFT-PerfectTraits/include/Trait.h \
+ C:\Users\JPS\Desktop\TFT-PerfectTraits\src\Trait.cpp \
+ C:/Users/JPS/Desktop/TFT-PerfectTraits/include/Trait.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \

@@ -45,8 +45,12 @@
             [2024/01/10] - Functions from main and global that calculate scores for teams were placed into newly created class `CombController`.
 
 */ 
+
+#include <fstream>
+#include <nlohmann/json.hpp>
+
 #include <init.h>
-#include <ParseCSV.h>
+#include "ParseCSV.h"
 #include <global.h>
 #include <ctime>
 #include <algorithm>
@@ -54,22 +58,16 @@
 #include "TraitController.h"
 
 int main() {
-    // Load User Data
+    // 
     init in;
 
     // Parse Data
-    ParseCSV * csv = new ParseCSV(); 
-    std::vector<std::vector<std::string>> UnitData = csv -> parseData(in.path_to_units);
-    std::vector<std::vector<std::string>> TraitData = csv -> parseData(in.path_to_traits);
-    delete csv;
+    ParseCSV * csv = new ParseCSV("files.json");
 
-    // Create Unit Objects
-    std::vector<Unit *> Units = assignUnits(UnitData);
-
-
-    TraitController * traitController = new TraitController(TraitData);
-    // auto traitStruct = traitController -> GetTraitStruct();
-
+    // Extract Units
+    auto Units = csv -> getUnits();
+    auto Traits = csv -> getTraitStruct();
+    
     // Filter Units by config
     filterUnits(Units, in);
 
@@ -82,9 +80,18 @@ int main() {
     // Output to console
     in.displayConfig();
 
+    // FindTeams is broken..
+    for (const auto & it : Traits.myMap) {
+        std::cout << it.first << ": ";
+        for (const auto & jt : it.second -> getTraitThreshold()) {
+            std::cout << jt << " ";
+        }
+        std::cout << std::endl;
+    }
+
     // Create final teams  
     // Return Passing teams in a vector
-    // std::vector<Team> final_teams = combCtrl -> FindTeams(Units, traitController -> GetTraitStruct(), in);
+    // std::vector<Team> final_teams = combCtrl -> FindTeams(Units, Traits, in);
 
     // Save output
     // OutputTXT("results/P0_L8_12345.txt", final_teams);

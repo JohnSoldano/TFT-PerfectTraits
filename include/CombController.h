@@ -11,6 +11,7 @@
 #include <iostream>
 #include <ctime>
 #include "TraitController.h"
+#include "ParseCSV.h"
 
 class CombController {
     private:
@@ -109,7 +110,7 @@ class CombController {
         // This will calculate `partialTraits`, `perfectTraits`, `totalTraits`, `teamCostAvg`,
         // etc,...
         // The class will be initialized with `currentTeamTraits` and the `subsetTraitMap`
-        std::map<std::string, std::map<std::string, int>> calculateTeamTotals(std::unordered_map<std::string, int> currentTeamTraits, TraitController::TraitStruct trait_data) {
+        std::map<std::string, std::map<std::string, int>> calculateTeamTotals(std::unordered_map<std::string, int> currentTeamTraits, ParseCSV::TraitStruct trait_data) {
             // A mapping between `totalTraits`, `partialTraits`, `perfectTraits` and `teamAvgCost`.
             std::map<std::string, std::map<std::string, int>> teamTotals;
 
@@ -118,7 +119,7 @@ class CombController {
                 // `it.first` is the current trait.
                 // `currentTeamTraits[it.first]` is the team total for the given trait.
                 // `tmp_trait` is the object containing Trait thresholds.
-                Trait * tmp_trait = trait_data.get(it.first);
+                auto tmp_trait = trait_data.get(it.first);
 
                 // Trait Total and relative min_unit index.
                 std::tuple<int, int> find_trait_threshold = CombController::findTraitThreshold(tmp_trait -> getTraitThreshold(), currentTeamTraits[it.first]);
@@ -154,6 +155,6 @@ class CombController {
         ~CombController();
 
         int Get_nCk_size() { return nCk_size; }
-        std::vector<Team> FindTeams(std::vector<Unit *> units, TraitController::TraitStruct traits, init in);
+        std::vector<Team> FindTeams(std::vector<Unit *> units, ParseCSV::TraitStruct traits, init in);
 };
 #endif // COMBCONTROLLER_H
