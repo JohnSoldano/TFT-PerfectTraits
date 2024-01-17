@@ -4,13 +4,17 @@
 #define TRAITCONTROLLER_H
 
 #include <unordered_map>
+#include <map>
 #include "Trait.h"
+#include "ParseCSV.h"
 
 class TraitController {
     private:
+        // std::string _path_to_data;
+        std::unordered_map<std::string, Trait *> trait_map;
         std::vector<Trait *> all_traits;
-        
 
+        // Convert CSV data into usable obj
         void assignTraits(std::vector<std::vector<std::string>> traits) {
             std::vector<Trait *> all_tr;
 
@@ -31,54 +35,111 @@ class TraitController {
 
             all_traits = all_tr;
         }
+        void createTraitMap() {
+            // variable to be overwritten (used cleaner code?)[is this good practice?]
+            std::string traitKey;
+
+            // Iterate vectoring containing all traits
+            for (const auto & trait : all_traits) {
+                // Update key to be saved in map.
+                traitKey = trait -> getTraitID();
+
+                // Add mapping from TraitID to Trait *
+                trait_map[traitKey] = trait;
+            }
+
+        }
+
+        // For a given trait, calculates the partial and total score.
+        std::tuple<int, int> findTraitThreshold(std::vector<int> traitThreshold, int teamTraitTotal) {
+            for (size_t i = 0; i < traitThreshold.size(); i++) {
+                // Condition Two: Perfect
+                if (teamTraitTotal == traitThreshold.at(i)) {
+                    return std::make_tuple(traitThreshold.at(i), i);
+                }
+
+                // Condition Three: Partial
+                if ((i > 0) && (teamTraitTotal > traitThreshold.at(i-1)) && (teamTraitTotal < traitThreshold.at(i))) {
+                    return std::make_tuple(traitThreshold.at(i), i - 1);
+                }
+            }
+
+            // Condition One: No Traits
+            return std::make_tuple(traitThreshold.at(0), -1);
+            }
+
+        // For a given trait, calculates the partial and total score.
+        std::map<std::string, int> calculateTraitThreshold(std::tuple<int, int> tuple, int total) {
+            int traitThreshold = std::get<0>(tuple);
+            int traitIndex = std::get<1>(tuple);
+            int traitTotal;
+            int traitPartial;
+
+            // Condition One: Perfect
+            if (total == traitThreshold) {
+                traitTotal = traitIndex + 1;
+                traitPartial = 0;
+
+            // Condition Three: None
+            } else if (traitIndex == -1) {
+                traitTotal = 0;
+                traitPartial = total;
+
+            // Condition Two: Partial
+            } else {
+                traitTotal = traitIndex + 1;
+                traitPartial = traitThreshold - total;
+            }
+
+            std::map<std::string, int> traitResults;
+            traitResults["Trait"] =  total;
+            traitResults["Threshold"] = traitThreshold;
+            traitResults["Total"] = traitTotal;
+            traitResults["Partial"] = traitPartial;
+            
+            return traitResults;
+        }
+    
+        // Final score?
+        std::map<std::string, int> scoreTeamTotals(std::map<std::string, std::map<std::string, int>> teamTotals) {
+            int partialTotal = 0;
+            int totalTotal = 0;
+            std::map<std::string, int> finalTeamTotal;
+
+            // Iterate `Traits`
+            for (auto & trait : teamTotals) {
+                partialTotal += trait.second["Partial"];
+                totalTotal += trait.second["Total"];
+
+            }
+
+            finalTeamTotal["Total"] = totalTotal;
+            finalTeamTotal["Partial"] = partialTotal;
+
+            return finalTeamTotal;
+        }
 
     public:
-        struct TraitStruct {
-            std::unordered_map<std::string, Trait *> myMap;
+        // TraitStruct trait_struct;
+        TraitController(std::string path_to_data) : trait_map(), all_traits() {
+            // Initialize class for parsing csv
+            ParseCSV parse_csv;
 
-            TraitStruct() { }
+            // Parse csv
+            auto parsed_data = parse_csv.parseData(path_to_data);
 
-            // Destructor to clean up dynamically allocated objects
-            ~TraitStruct() {
-                for (auto & pair : myMap) {
-                    delete pair.second;
-                }
-                myMap.clear();
-            }
+            // Converts parsed csv data into usable data structure
+            assignTraits(parsed_data);
 
-            
-            void add(const std::string & key, Trait * value) {
-                // Remove existing entry if present
-                auto it = myMap.find(key);
-                if (it != myMap.end()) {
-                    delete it -> second;
-                }
-                myMap[key] = value;
-            }
+            // Creates a mapping between 
+            createTraitMap();
 
-            Trait * get(const std::string & key) const {
-                auto it = myMap.find(key);
-                if (it != myMap.end()) {
-                    return it -> second;
-                }
-                return nullptr;
-            }
-
-            void parse(std::vector<Trait *> trait) {
-                for (auto it : trait) {
-                    add(it -> getTraitID(), it);
-                }
-            }
-        };
-        
-        TraitStruct trait_struct;
-        TraitController(std::vector<std::vector<std::string>> traits) {
-            assignTraits(traits);
-
-            TraitStruct trait_st;        
-            trait_st.parse(all_traits);
-            trait_struct = trait_st;
         }
+
+        std::vector<Trait *> GetAllTraits() { return all_traits; }
+        std::unordered_map<std::string, Trait *> GetTraitMap() { return trait_map; }
+
+        std::map<std::string, int> calculateTeamTotals(std::unordered_map<std::string, int> team_traits);
 
 };
 

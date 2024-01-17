@@ -1,6 +1,6 @@
 CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.obj: \
  D:\MyProjects\TFT\TFT-PerfectTraits\src\ParseCSV.cpp \
- D:/MyProjects/TFT/TFT-PerfectTraits/include/parseCSV.h \
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/ParseCSV.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -112,75 +112,4 @@ CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\basic_file.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++io.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\fstream.tcc \
- D:/MyProjects/TFT/TFT-PerfectTraits/build/_deps/json-src/single_include/nlohmann/json.hpp \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\algorithm \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\utility \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_relops.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algo.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\algorithmfwd.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_heap.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tempbuf.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uniform_int_dist.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\limits \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstddef \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\functional \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\typeinfo \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\tuple \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\array \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iterator \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stream_iterator.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\memory \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_raw_storage_iter.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\concurrence.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unique_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\shared_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\shared_ptr_base.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\allocated_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\aligned_buffer.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\shared_ptr_atomic.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_base.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\backward\auto_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\numeric \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_numeric.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\forward_list \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\forward_list.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\forward_list.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\map \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_map.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\unordered_map \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable_policy.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_map.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\valarray \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cmath c:\mingw\include\math.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\valarray_array.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\valarray_array.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\valarray_before.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\slice_array.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\valarray_after.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\gslice.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\gslice_array.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\mask_array.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\indirect_array.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cassert \
- c:\mingw\include\assert.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstring \
- c:\mingw\include\string.h c:\mingw\include\strings.h \
- c:\mingw\include\wchar.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iomanip \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\locale \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets_nonio.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ctime c:\mingw\include\time.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\time_members.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\messages_members.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets_nonio.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_conv.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stringfwd.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unique_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\quoted_string.h
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\fstream.tcc

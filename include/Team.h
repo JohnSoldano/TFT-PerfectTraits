@@ -1,5 +1,9 @@
 // Team.h
-
+// 1) std::map<std::string, std::map<std::string, int>> team_totals = CombController::calculateTeamTotals(tmp_team -> getTraitCount(), traits);
+//  2) std::map<std::string, int> team_score = CombController::scoreTeamTotals(team_totals);
+//  3) tmp_team -> setTeamTotal(team_totals);
+//  4) tmp_team -> setTeamTotalScore(team_score);
+//  5) tmp_team -> SetTeamNumber(final_teams.size() + 1); // Increment automatically
 /*
     +===========+
     +   To Do   +
@@ -71,4 +75,5 @@ class Team {
         // Returns total score for team.
         int GetTeamTotalScore() { return team_total_score["Total"]; }
 };
+
 #endif // TEAM_H

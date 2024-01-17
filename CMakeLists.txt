@@ -9,16 +9,30 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 
-include(FetchContent)
-FetchContent_Declare(
-  json
-  GIT_REPOSITORY https://github.com/nlohmann/json.git
-  GIT_TAG v3.10.5 # Specify the commit hash or tag to fetch
+# include(FetchContent)
+# FetchContent_Declare(
+#   json
+#   GIT_REPOSITORY https://github.com/nlohmann/json.git
+#   GIT_TAG v3.10.5 # Specify the commit hash or tag to fetch
+# )
+
+# FetchContent_MakeAvailable(json)
+
+
+# Add strict compilation flags
+# add_compile_options(-Wall -Wextra -Werror -pedantic -Wshadow -Wnon-virtual-dtor)
+# Add strict compilation flags
+add_compile_options(
+    -Wall -Wextra -Werror
+    -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused 
+    -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation 
+    -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -Wformat=2 
+    -pedantic-errors
 )
 
-FetchContent_MakeAvailable(json)
-
-
+if (CMAKE_COMPILER_IS_GNUCXX)
+    add_compile_options(-Weffc++)
+endif()
 
 include_directories(
   ${PROJECT_SOURCE_DIR}/include
@@ -35,26 +49,30 @@ add_executable(
   src/Unit.cpp
   src/UnitController.cpp
 
+  src/Trait.cpp
+  src/TraitController.cpp
+
+  src/Team.cpp
+  src/TeamController.cpp
+
   # src/Team.cpp
   # src/global.cpp
-  # src/Trait.cpp
-  # src/CombController.cpp
-  # src/TraitController.cpp
   
+  # src/CombController.cpp
 )
 
-target_link_libraries(PerfectTraits PRIVATE nlohmann_json::nlohmann_json)
+# target_link_libraries(PerfectTraits PRIVATE nlohmann_json::nlohmann_json)
 
 # include necessary source files
-add_executable(
-  tests
-  tests/tests.cpp
-  src/FunTimer.cpp
+# add_executable(
+#   tests
+#   tests/tests.cpp
+#   src/FunTimer.cpp
   
-  # src/ParseCSV.cpp
-  # src/Unit.cpp
-  # src/Team.cpp
-  # src/global.cpp
-  # src/Trait.cpp
-  # src/CombController.cpp
-) 
+#   # src/ParseCSV.cpp
+#   # src/Unit.cpp
+#   # src/Team.cpp
+#   # src/global.cpp
+#   # src/Trait.cpp
+#   # src/CombController.cpp
+# ) 

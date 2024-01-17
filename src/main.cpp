@@ -47,9 +47,12 @@
 */ 
 
 
-#include <init.h>
+#include "init.h"
 
 #include "UnitController.h"
+#include "TraitController.h"
+#include "Team.h"
+#include "TeamController.h"
 
 
 // #include <global.h>
@@ -61,24 +64,32 @@
 int main() {
     init in;
 
-    // Initialize with path to data and filter
+    // For a given path to data and filter initialize class for creating units.
     UnitController * unit_controller = new UnitController(in.path_to_units, in.filter);
 
+    // For a given path to data and filter initialize class for creating traits.
+    TraitController * trait_controller = new TraitController(in.path_to_traits);
+
+    
     // Get Final Units
     auto Units = unit_controller -> GetAllUnits();
 
+    // Get Final Trait Map
+    auto TraitMap = trait_controller -> GetTraitMap();
+
+    TeamController * team_controller = new TeamController(TraitMap);
+    team_controller -> ~TeamController();
+
+    std::vector<Unit *> tmp_units = {Units.at(0), Units.at(3), Units.at(36), Units.at(57)};
+    Team * tmp_team = new Team(tmp_units);
+    auto team_score = trait_controller -> calculateTeamTotals(tmp_team -> getTraitCount()); 
+    tmp_team -> setTeamTotalScore(team_score);
+    tmp_team -> finalTeamDisplay();
 
 
 
-    // Parse Data
-    // ParseCSV * csv = new ParseCSV("files.json");
 
-    // Extract Units
-    // auto Units = csv -> getUnits();
-    // auto Traits = csv -> getTraitStruct();
-    
-    // Filter Units by config
-    // filterUnits(Units, in);
+
 
     // Find final teams.
     // CombController * combCtrl = new CombController(Units.size(), in.teamSize);

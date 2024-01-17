@@ -7,7 +7,7 @@
 #include <istream>
 #include <sstream>
 #include <fstream>
-#include <nlohmann/json.hpp>
+// #include <nlohmann/json.hpp>
 
 class ParseCSV {
     private:
@@ -55,19 +55,7 @@ class ParseCSV {
         // };
 
         ParseCSV();
-        ParseCSV(std::string x);
-        ParseCSV(std::vector<std::string> x);
         ~ParseCSV();
         std::vector<std::vector<std::string>> parseData(std::string p);
-        // void assignUnits(std::vector<std::vector<std::string>> x);
-        // void assignTraits(std::vector<std::vector<std::string>> x);
-
-        // std::vector<Unit *> getUnits() { return all_units; }
-        // std::vector<Trait *> getTraits() { return all_traits; }
-        // TraitStruct getTraitStruct() {
-        //     TraitStruct trait_struct;
-        //     trait_struct.parse(all_traits);
-        //     return trait_struct;
-        // }
 };
 #endif // PARSECSV_H

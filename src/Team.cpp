@@ -6,7 +6,7 @@ std::unordered_map<std::string, int> Team::countTraits(std::vector<Unit *> t) {
     std::vector<std::string> raw_traits;
 
     // Iterate Units within Team
-    for (auto & x : team) {
+    for (auto & x : t) {
         
         // Return Trait for each Unit within Team
         std::vector<std::string> tmp_traits = x -> getTraits();
@@ -29,7 +29,7 @@ std::unordered_map<std::string, int> Team::countTraits(std::vector<Unit *> t) {
 }
 
 // Constructor
-Team::Team(std::vector<Unit *> units) {
+Team::Team(std::vector<Unit *> units) : team(), trait_count(), team_totals(), team_total_score(), team_number() {
     // Store Traits
     for (auto x : units) {
         team.push_back(x);
@@ -61,7 +61,7 @@ void Team::displayCounts() {
 
 // Display Final Team Data.
 void Team::finalTeamDisplay() {
-        int num_units = team.size();
+        auto num_units = team.size();
         int totalTotal = team_total_score["Total"];
         int totalPartial = team_total_score["Partial"];
 

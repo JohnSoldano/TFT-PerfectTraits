@@ -1,10 +1,10 @@
 // Unit.cpp
 #include "Unit.h"
 
-Unit::Unit(std::string n, int c, std::vector<std::string> t) {
+Unit::Unit(std::string n, int c, std::vector<std::string> t) : name(n), tier(c), cost(c), traits() {
     name = n;
-    cost = c;
     tier = c;
+    cost = c;
     for (auto i : t) {
         traits.push_back(i);
     }

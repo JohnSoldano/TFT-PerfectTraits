@@ -1,0 +1,281 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "PerfectTraits.exe"
+		},
+		{
+			"path" : "PerfectTraits.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++1z"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wold-style-cast"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wmisleading-indentation"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wlogical-op"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wnull-dereference"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wuseless-cast"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-pedantic-errors"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Weffc++"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "D:/MyProjects/TFT/TFT-PerfectTraits/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/MyProjects/TFT/TFT-PerfectTraits/tests"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/MyProjects/TFT/TFT-PerfectTraits/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"id" : "PerfectTraits::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "PerfectTraits",
+	"nameOnDisk" : "PerfectTraits.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ParseCSV.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Unit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/UnitController.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Trait.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/TraitController.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Team.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/TeamController.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

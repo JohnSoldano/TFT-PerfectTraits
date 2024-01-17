@@ -4,7 +4,7 @@
 
 
 // Default Constructor
-UnitController::UnitController(std::string path_to_data, std::vector<bool> filter) {
+UnitController::UnitController(std::string path_to_data, std::vector<bool> filter) : all_units() {
     // Initialize class for parsing csv
     ParseCSV parse_csv;
 

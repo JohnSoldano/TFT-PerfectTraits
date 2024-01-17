@@ -63,34 +63,15 @@ CMAKE_BINARY_DIR = D:\MyProjects\TFT\TFT-PerfectTraits\build
 
 # The main recursive "all" target.
 all: CMakeFiles/PerfectTraits.dir/all
-all: CMakeFiles/tests.dir/all
-all: _deps/json-build/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: _deps/json-build/preinstall
+preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/PerfectTraits.dir/clean
-clean: CMakeFiles/tests.dir/clean
-clean: _deps/json-build/clean
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory _deps/json-build
-
-# Recursive "all" directory target.
-_deps/json-build/all:
-.PHONY : _deps/json-build/all
-
-# Recursive "preinstall" directory target.
-_deps/json-build/preinstall:
-.PHONY : _deps/json-build/preinstall
-
-# Recursive "clean" directory target.
-_deps/json-build/clean:
-.PHONY : _deps/json-build/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/PerfectTraits.dir
@@ -99,12 +80,12 @@ _deps/json-build/clean:
 CMakeFiles/PerfectTraits.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target PerfectTraits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target PerfectTraits"
 .PHONY : CMakeFiles/PerfectTraits.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PerfectTraits.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PerfectTraits.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles 0
 .PHONY : CMakeFiles/PerfectTraits.dir/rule
@@ -117,32 +98,6 @@ PerfectTraits: CMakeFiles/PerfectTraits.dir/rule
 CMakeFiles/PerfectTraits.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/clean
 .PHONY : CMakeFiles/PerfectTraits.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tests.dir
-
-# All Build rule for target.
-CMakeFiles/tests.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=6,7,8 "Built target tests"
-.PHONY : CMakeFiles/tests.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles 0
-.PHONY : CMakeFiles/tests.dir/rule
-
-# Convenience name for target.
-tests: CMakeFiles/tests.dir/rule
-.PHONY : tests
-
-# clean rule for target.
-CMakeFiles/tests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/clean
-.PHONY : CMakeFiles/tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

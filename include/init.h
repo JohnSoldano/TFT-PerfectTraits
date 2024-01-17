@@ -45,8 +45,8 @@ struct init {
 	bool oneCost = 1;
     bool twoCost = 1;
     bool threeCost = 1;
-    bool fourCost = 0;
-    bool fiveCost = 0;
+    bool fourCost = 1;
+    bool fiveCost = 1;
     std::vector<bool> filter = {oneCost, twoCost, threeCost, fourCost, fiveCost};
 
 
@@ -74,7 +74,7 @@ struct init {
 
         std::vector<std::string> tiers = {"one", "two", "three", "four", "five"};
         std::cout << "<><> Unit Tier <><>" << std::endl;
-        for (int i = 0; i < filter.size(); i++) {
+        for (size_t i = 0; i < filter.size(); i++) {
             std::cout << tiers.at(i) << "\t" << filter.at(i) << std::endl;
         }
         std::cout << std::endl;

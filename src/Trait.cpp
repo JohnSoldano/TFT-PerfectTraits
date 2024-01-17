@@ -1,7 +1,7 @@
 // Trait.cpp
 #include "Trait.h"
 
-Trait::Trait(std::string t, std::vector<int> thresh) {
+Trait::Trait(std::string t, std::vector<int> thresh) : trait_id() , threshold() {
     // Save ID
     trait_id = t;
 

@@ -128,12 +128,76 @@ CMakeFiles/PerfectTraits.dir/src/UnitController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerfectTraits.dir/src/UnitController.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\UnitController.cpp -o CMakeFiles\PerfectTraits.dir\src\UnitController.cpp.s
 
+CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj: CMakeFiles/PerfectTraits.dir/flags.make
+CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj: CMakeFiles/PerfectTraits.dir/includes_CXX.rsp
+CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/Trait.cpp
+CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj: CMakeFiles/PerfectTraits.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj -MF CMakeFiles\PerfectTraits.dir\src\Trait.cpp.obj.d -o CMakeFiles\PerfectTraits.dir\src\Trait.cpp.obj -c D:\MyProjects\TFT\TFT-PerfectTraits\src\Trait.cpp
+
+CMakeFiles/PerfectTraits.dir/src/Trait.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PerfectTraits.dir/src/Trait.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyProjects\TFT\TFT-PerfectTraits\src\Trait.cpp > CMakeFiles\PerfectTraits.dir\src\Trait.cpp.i
+
+CMakeFiles/PerfectTraits.dir/src/Trait.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerfectTraits.dir/src/Trait.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\Trait.cpp -o CMakeFiles\PerfectTraits.dir\src\Trait.cpp.s
+
+CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj: CMakeFiles/PerfectTraits.dir/flags.make
+CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj: CMakeFiles/PerfectTraits.dir/includes_CXX.rsp
+CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/TraitController.cpp
+CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj: CMakeFiles/PerfectTraits.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj -MF CMakeFiles\PerfectTraits.dir\src\TraitController.cpp.obj.d -o CMakeFiles\PerfectTraits.dir\src\TraitController.cpp.obj -c D:\MyProjects\TFT\TFT-PerfectTraits\src\TraitController.cpp
+
+CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyProjects\TFT\TFT-PerfectTraits\src\TraitController.cpp > CMakeFiles\PerfectTraits.dir\src\TraitController.cpp.i
+
+CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\TraitController.cpp -o CMakeFiles\PerfectTraits.dir\src\TraitController.cpp.s
+
+CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: CMakeFiles/PerfectTraits.dir/flags.make
+CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: CMakeFiles/PerfectTraits.dir/includes_CXX.rsp
+CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/Team.cpp
+CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: CMakeFiles/PerfectTraits.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj -MF CMakeFiles\PerfectTraits.dir\src\Team.cpp.obj.d -o CMakeFiles\PerfectTraits.dir\src\Team.cpp.obj -c D:\MyProjects\TFT\TFT-PerfectTraits\src\Team.cpp
+
+CMakeFiles/PerfectTraits.dir/src/Team.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PerfectTraits.dir/src/Team.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyProjects\TFT\TFT-PerfectTraits\src\Team.cpp > CMakeFiles\PerfectTraits.dir\src\Team.cpp.i
+
+CMakeFiles/PerfectTraits.dir/src/Team.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerfectTraits.dir/src/Team.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\Team.cpp -o CMakeFiles\PerfectTraits.dir\src\Team.cpp.s
+
+CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.obj: CMakeFiles/PerfectTraits.dir/flags.make
+CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.obj: CMakeFiles/PerfectTraits.dir/includes_CXX.rsp
+CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/TeamController.cpp
+CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.obj: CMakeFiles/PerfectTraits.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.obj -MF CMakeFiles\PerfectTraits.dir\src\TeamController.cpp.obj.d -o CMakeFiles\PerfectTraits.dir\src\TeamController.cpp.obj -c D:\MyProjects\TFT\TFT-PerfectTraits\src\TeamController.cpp
+
+CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyProjects\TFT\TFT-PerfectTraits\src\TeamController.cpp > CMakeFiles\PerfectTraits.dir\src\TeamController.cpp.i
+
+CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyProjects\TFT\TFT-PerfectTraits\src\TeamController.cpp -o CMakeFiles\PerfectTraits.dir\src\TeamController.cpp.s
+
 # Object files for target PerfectTraits
 PerfectTraits_OBJECTS = \
 "CMakeFiles/PerfectTraits.dir/src/main.cpp.obj" \
 "CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.obj" \
 "CMakeFiles/PerfectTraits.dir/src/Unit.cpp.obj" \
-"CMakeFiles/PerfectTraits.dir/src/UnitController.cpp.obj"
+"CMakeFiles/PerfectTraits.dir/src/UnitController.cpp.obj" \
+"CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj" \
+"CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj" \
+"CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj" \
+"CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.obj"
 
 # External object files for target PerfectTraits
 PerfectTraits_EXTERNAL_OBJECTS =
@@ -142,11 +206,15 @@ PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/src/main.cpp.obj
 PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.obj
 PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/src/Unit.cpp.obj
 PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/src/UnitController.cpp.obj
+PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj
+PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj
+PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj
+PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.obj
 PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/build.make
 PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/linkLibs.rsp
 PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/objects1.rsp
 PerfectTraits.exe: CMakeFiles/PerfectTraits.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PerfectTraits.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyProjects\TFT\TFT-PerfectTraits\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable PerfectTraits.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PerfectTraits.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

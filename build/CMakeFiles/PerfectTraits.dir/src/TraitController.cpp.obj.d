@@ -90,10 +90,42 @@ CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable_policy.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_map.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\map \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_map.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
  D:/MyProjects/TFT/TFT-PerfectTraits/include/Trait.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/ParseCSV.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\error_constants.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\streambuf \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cwctype \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\ctype_base.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf_iterator.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\ctype_inline.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\fstream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\basic_file.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++io.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\fstream.tcc

@@ -128,43 +128,6 @@ PerfectTraits/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/build
 .PHONY : PerfectTraits/fast
 
-#=============================================================================
-# Target rules for targets named tests
-
-# Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests
-.PHONY : tests
-
-# fast build rule for target.
-tests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/build
-.PHONY : tests/fast
-
-src/FunTimer.obj: src/FunTimer.cpp.obj
-.PHONY : src/FunTimer.obj
-
-# target to build an object file
-src/FunTimer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/FunTimer.cpp.obj
-.PHONY : src/FunTimer.cpp.obj
-
-src/FunTimer.i: src/FunTimer.cpp.i
-.PHONY : src/FunTimer.i
-
-# target to preprocess a source file
-src/FunTimer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/FunTimer.cpp.i
-.PHONY : src/FunTimer.cpp.i
-
-src/FunTimer.s: src/FunTimer.cpp.s
-.PHONY : src/FunTimer.s
-
-# target to generate assembly for a file
-src/FunTimer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/FunTimer.cpp.s
-.PHONY : src/FunTimer.cpp.s
-
 src/ParseCSV.obj: src/ParseCSV.cpp.obj
 .PHONY : src/ParseCSV.obj
 
@@ -188,6 +151,102 @@ src/ParseCSV.s: src/ParseCSV.cpp.s
 src/ParseCSV.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.s
 .PHONY : src/ParseCSV.cpp.s
+
+src/Team.obj: src/Team.cpp.obj
+.PHONY : src/Team.obj
+
+# target to build an object file
+src/Team.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj
+.PHONY : src/Team.cpp.obj
+
+src/Team.i: src/Team.cpp.i
+.PHONY : src/Team.i
+
+# target to preprocess a source file
+src/Team.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Team.cpp.i
+.PHONY : src/Team.cpp.i
+
+src/Team.s: src/Team.cpp.s
+.PHONY : src/Team.s
+
+# target to generate assembly for a file
+src/Team.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Team.cpp.s
+.PHONY : src/Team.cpp.s
+
+src/TeamController.obj: src/TeamController.cpp.obj
+.PHONY : src/TeamController.obj
+
+# target to build an object file
+src/TeamController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.obj
+.PHONY : src/TeamController.cpp.obj
+
+src/TeamController.i: src/TeamController.cpp.i
+.PHONY : src/TeamController.i
+
+# target to preprocess a source file
+src/TeamController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.i
+.PHONY : src/TeamController.cpp.i
+
+src/TeamController.s: src/TeamController.cpp.s
+.PHONY : src/TeamController.s
+
+# target to generate assembly for a file
+src/TeamController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.s
+.PHONY : src/TeamController.cpp.s
+
+src/Trait.obj: src/Trait.cpp.obj
+.PHONY : src/Trait.obj
+
+# target to build an object file
+src/Trait.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj
+.PHONY : src/Trait.cpp.obj
+
+src/Trait.i: src/Trait.cpp.i
+.PHONY : src/Trait.i
+
+# target to preprocess a source file
+src/Trait.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Trait.cpp.i
+.PHONY : src/Trait.cpp.i
+
+src/Trait.s: src/Trait.cpp.s
+.PHONY : src/Trait.s
+
+# target to generate assembly for a file
+src/Trait.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/Trait.cpp.s
+.PHONY : src/Trait.cpp.s
+
+src/TraitController.obj: src/TraitController.cpp.obj
+.PHONY : src/TraitController.obj
+
+# target to build an object file
+src/TraitController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj
+.PHONY : src/TraitController.cpp.obj
+
+src/TraitController.i: src/TraitController.cpp.i
+.PHONY : src/TraitController.i
+
+# target to preprocess a source file
+src/TraitController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.i
+.PHONY : src/TraitController.cpp.i
+
+src/TraitController.s: src/TraitController.cpp.s
+.PHONY : src/TraitController.s
+
+# target to generate assembly for a file
+src/TraitController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.s
+.PHONY : src/TraitController.cpp.s
 
 src/Unit.obj: src/Unit.cpp.obj
 .PHONY : src/Unit.obj
@@ -261,30 +320,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-tests/tests.obj: tests/tests.cpp.obj
-.PHONY : tests/tests.obj
-
-# target to build an object file
-tests/tests.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/tests/tests.cpp.obj
-.PHONY : tests/tests.cpp.obj
-
-tests/tests.i: tests/tests.cpp.i
-.PHONY : tests/tests.i
-
-# target to preprocess a source file
-tests/tests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/tests/tests.cpp.i
-.PHONY : tests/tests.cpp.i
-
-tests/tests.s: tests/tests.cpp.s
-.PHONY : tests/tests.s
-
-# target to generate assembly for a file
-tests/tests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/tests/tests.cpp.s
-.PHONY : tests/tests.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -294,13 +329,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PerfectTraits
-	@echo ... tests
-	@echo ... src/FunTimer.obj
-	@echo ... src/FunTimer.i
-	@echo ... src/FunTimer.s
 	@echo ... src/ParseCSV.obj
 	@echo ... src/ParseCSV.i
 	@echo ... src/ParseCSV.s
+	@echo ... src/Team.obj
+	@echo ... src/Team.i
+	@echo ... src/Team.s
+	@echo ... src/TeamController.obj
+	@echo ... src/TeamController.i
+	@echo ... src/TeamController.s
+	@echo ... src/Trait.obj
+	@echo ... src/Trait.i
+	@echo ... src/Trait.s
+	@echo ... src/TraitController.obj
+	@echo ... src/TraitController.i
+	@echo ... src/TraitController.s
 	@echo ... src/Unit.obj
 	@echo ... src/Unit.i
 	@echo ... src/Unit.s
@@ -310,9 +353,6 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... tests/tests.obj
-	@echo ... tests/tests.i
-	@echo ... tests/tests.s
 .PHONY : help
 
 

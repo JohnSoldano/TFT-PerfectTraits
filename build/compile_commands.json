@@ -1,38 +1,50 @@
 [
 {
   "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\PerfectTraits.dir\\src\\main.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\main.cpp",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -Wextra -Werror -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -Wformat=2 -pedantic-errors -Weffc++ -o CMakeFiles\\PerfectTraits.dir\\src\\main.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\main.cpp",
   "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/main.cpp",
   "output": "CMakeFiles/PerfectTraits.dir/src/main.cpp.obj"
 },
 {
   "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\PerfectTraits.dir\\src\\ParseCSV.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\ParseCSV.cpp",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -Wextra -Werror -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -Wformat=2 -pedantic-errors -Weffc++ -o CMakeFiles\\PerfectTraits.dir\\src\\ParseCSV.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\ParseCSV.cpp",
   "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/ParseCSV.cpp",
   "output": "CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.obj"
 },
 {
   "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\PerfectTraits.dir\\src\\Unit.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\Unit.cpp",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -Wextra -Werror -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -Wformat=2 -pedantic-errors -Weffc++ -o CMakeFiles\\PerfectTraits.dir\\src\\Unit.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\Unit.cpp",
   "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/Unit.cpp",
   "output": "CMakeFiles/PerfectTraits.dir/src/Unit.cpp.obj"
 },
 {
   "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\PerfectTraits.dir\\src\\UnitController.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\UnitController.cpp",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -Wextra -Werror -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -Wformat=2 -pedantic-errors -Weffc++ -o CMakeFiles\\PerfectTraits.dir\\src\\UnitController.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\UnitController.cpp",
   "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/UnitController.cpp",
   "output": "CMakeFiles/PerfectTraits.dir/src/UnitController.cpp.obj"
 },
 {
   "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\tests.dir\\tests\\tests.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\tests\\tests.cpp",
-  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/tests/tests.cpp",
-  "output": "CMakeFiles/tests.dir/tests/tests.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -Wextra -Werror -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -Wformat=2 -pedantic-errors -Weffc++ -o CMakeFiles\\PerfectTraits.dir\\src\\Trait.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\Trait.cpp",
+  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/Trait.cpp",
+  "output": "CMakeFiles/PerfectTraits.dir/src/Trait.cpp.obj"
 },
 {
   "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\tests.dir\\src\\FunTimer.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\FunTimer.cpp",
-  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/FunTimer.cpp",
-  "output": "CMakeFiles/tests.dir/src/FunTimer.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -Wextra -Werror -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -Wformat=2 -pedantic-errors -Weffc++ -o CMakeFiles\\PerfectTraits.dir\\src\\TraitController.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\TraitController.cpp",
+  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/TraitController.cpp",
+  "output": "CMakeFiles/PerfectTraits.dir/src/TraitController.cpp.obj"
+},
+{
+  "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -Wextra -Werror -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -Wformat=2 -pedantic-errors -Weffc++ -o CMakeFiles\\PerfectTraits.dir\\src\\Team.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\Team.cpp",
+  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/Team.cpp",
+  "output": "CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj"
+},
+{
+  "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -Wextra -Werror -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -Wformat=2 -pedantic-errors -Weffc++ -o CMakeFiles\\PerfectTraits.dir\\src\\TeamController.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\TeamController.cpp",
+  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/TeamController.cpp",
+  "output": "CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.obj"
 }
 ]
