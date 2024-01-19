@@ -50,75 +50,6 @@ class TraitController {
 
         }
 
-        // For a given trait, calculates the partial and total score.
-        std::tuple<int, int> findTraitThreshold(std::vector<int> traitThreshold, int teamTraitTotal) {
-            for (size_t i = 0; i < traitThreshold.size(); i++) {
-                // Condition Two: Perfect
-                if (teamTraitTotal == traitThreshold.at(i)) {
-                    return std::make_tuple(traitThreshold.at(i), i);
-                }
-
-                // Condition Three: Partial
-                if ((i > 0) && (teamTraitTotal > traitThreshold.at(i-1)) && (teamTraitTotal < traitThreshold.at(i))) {
-                    return std::make_tuple(traitThreshold.at(i), i - 1);
-                }
-            }
-
-            // Condition One: No Traits
-            return std::make_tuple(traitThreshold.at(0), -1);
-            }
-
-        // For a given trait, calculates the partial and total score.
-        std::map<std::string, int> calculateTraitThreshold(std::tuple<int, int> tuple, int total) {
-            int traitThreshold = std::get<0>(tuple);
-            int traitIndex = std::get<1>(tuple);
-            int traitTotal;
-            int traitPartial;
-
-            // Condition One: Perfect
-            if (total == traitThreshold) {
-                traitTotal = traitIndex + 1;
-                traitPartial = 0;
-
-            // Condition Three: None
-            } else if (traitIndex == -1) {
-                traitTotal = 0;
-                traitPartial = total;
-
-            // Condition Two: Partial
-            } else {
-                traitTotal = traitIndex + 1;
-                traitPartial = traitThreshold - total;
-            }
-
-            std::map<std::string, int> traitResults;
-            traitResults["Trait"] =  total;
-            traitResults["Threshold"] = traitThreshold;
-            traitResults["Total"] = traitTotal;
-            traitResults["Partial"] = traitPartial;
-            
-            return traitResults;
-        }
-    
-        // Final score?
-        std::map<std::string, int> scoreTeamTotals(std::map<std::string, std::map<std::string, int>> teamTotals) {
-            int partialTotal = 0;
-            int totalTotal = 0;
-            std::map<std::string, int> finalTeamTotal;
-
-            // Iterate `Traits`
-            for (auto & trait : teamTotals) {
-                partialTotal += trait.second["Partial"];
-                totalTotal += trait.second["Total"];
-
-            }
-
-            finalTeamTotal["Total"] = totalTotal;
-            finalTeamTotal["Partial"] = partialTotal;
-
-            return finalTeamTotal;
-        }
-
     public:
         // TraitStruct trait_struct;
         TraitController(std::string path_to_data) : trait_map(), all_traits() {
@@ -138,9 +69,6 @@ class TraitController {
 
         std::vector<Trait *> GetAllTraits() { return all_traits; }
         std::unordered_map<std::string, Trait *> GetTraitMap() { return trait_map; }
-
-        std::map<std::string, int> calculateTeamTotals(std::unordered_map<std::string, int> team_traits);
-
 };
 
 #endif // TRAITCONTROLLER_H

@@ -134,8 +134,8 @@ CMakeFiles/PerfectTraits.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_map.h \
  D:/MyProjects/TFT/TFT-PerfectTraits/include/Trait.h \
  D:/MyProjects/TFT/TFT-PerfectTraits/include/Team.h \
+ D:/MyProjects/TFT/TFT-PerfectTraits/include/TraitController.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\numeric \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_numeric.h \
  D:/MyProjects/TFT/TFT-PerfectTraits/include/TeamController.h \
- D:/MyProjects/TFT/TFT-PerfectTraits/include/TraitController.h \
  D:/MyProjects/TFT/TFT-PerfectTraits/include/Team.h

@@ -29,7 +29,7 @@ std::unordered_map<std::string, int> Team::countTraits(std::vector<Unit *> t) {
 }
 
 // Constructor
-Team::Team(std::vector<Unit *> units) : team(), trait_count(), team_totals(), team_total_score(), team_number() {
+Team::Team(std::vector<Unit *> units, std::unordered_map<std::string, Trait *> & trait_map) : team(), trait_mapping(trait_map), trait_count(), team_totals(), team_total_score(), trait_threshold() {
     // Store Traits
     for (auto x : units) {
         team.push_back(x);
@@ -37,6 +37,8 @@ Team::Team(std::vector<Unit *> units) : team(), trait_count(), team_totals(), te
 
     // Count Traits
     trait_count = Team::countTraits(units);
+
+    calculateTeamTotals(trait_count);
 }
 
 // Destructor
@@ -82,10 +84,16 @@ void Team::finalTeamDisplay() {
         }
         std::cout << std::endl;
 
-        // Display Totals..
-        for (auto & x : team_totals) {
-            std::cout << x.first << ": " << x.second["Trait"] << "/" << x.second["Threshold"] << std::endl;
+        for (auto & x : team_trait_threshold) {
+            auto foo = x.second;
+            std::cout << x.first << ": " << std::get<0>(foo) << "/" << std::get<1>(foo) << std::endl;
+            // std::cout << x.first << ": " << x.second["Trait"] << "/" << x.second["Threshold"] << std::endl;
         }
+
+        // Display Totals..
+        // for (auto & x : team_totals) {
+        //     std::cout << x.first << ": " << x.second["Trait"] << "/" << x.second["Threshold"] << std::endl;
+        // }
         Team::dumbTableThing();
         std::cout << std::endl;
     }

@@ -61,6 +61,52 @@
 // #include "CombController.h"
 // #include "TraitController.h"
 
+void generateCombinationsIterative(
+    int n, int k,
+    std::vector<Unit *> & units,
+    std::unordered_map<std::string, Trait *> & trait_controller,
+    TeamController * team_controller) {
+        std::vector<int> combination(k);
+
+        // Initialize the first combination to be 0, 1, 2, ..., k-1
+        for (int i = 0; i < k; ++i) {
+            combination[i] = i;
+        }
+
+        
+
+        // After first combination, iterate through remaining combinations
+        while (true) {
+
+            // Temp unit vector
+            std::vector<Unit *> tmp_units;
+
+            // Iterate through unit combinations add to temp vector
+            for (const auto & it : combination) {
+                tmp_units.push_back(units.at(it));
+            }
+
+            // Temporary team
+            Team * tmp_team = new Team(tmp_units, trait_controller);
+            
+            // Score team
+            team_controller -> scoreTeam(tmp_team);
+    
+
+            // Generate the next combination
+            int i;
+            for (i = k - 1; i >= 0 && combination[i] == i + n - k; --i);
+            if (i < 0) break; // All combinations generated
+
+            combination[i]++;
+            for (int j = i + 1; j < k; ++j) {
+                combination[j] = combination[j - 1] + 1;
+            }
+
+            // printCombinationIterative(combination);
+        }
+}
+
 int main() {
     init in;
 
@@ -70,22 +116,41 @@ int main() {
     // For a given path to data and filter initialize class for creating traits.
     TraitController * trait_controller = new TraitController(in.path_to_traits);
 
-    
+    // Records final teams
+    TeamController * team_controller = new TeamController(in.minAlliances);
+
     // Get Final Units
     auto Units = unit_controller -> GetAllUnits();
 
     // Get Final Trait Map
     auto TraitMap = trait_controller -> GetTraitMap();
 
-    TeamController * team_controller = new TeamController(TraitMap);
-    team_controller -> ~TeamController();
+    // Test team
+    // std::vector<Unit *> tmp_units = {Units.at(0), Units.at(3), Units.at(36), Units.at(57)};
+    // Team * tmp_team = new Team(tmp_units, TraitMap);
+    // tmp_team -> finalTeamDisplay();
 
-    std::vector<Unit *> tmp_units = {Units.at(0), Units.at(3), Units.at(36), Units.at(57)};
-    Team * tmp_team = new Team(tmp_units);
-    auto team_score = trait_controller -> calculateTeamTotals(tmp_team -> getTraitCount()); 
-    tmp_team -> setTeamTotalScore(team_score);
-    tmp_team -> finalTeamDisplay();
 
+
+    generateCombinationsIterative(10, 4, Units, TraitMap, team_controller);
+    auto all_teams = team_controller -> GetAllTeams();
+    for (auto & it : all_teams) {
+        it.finalTeamDisplay();
+    }
+
+    /*
+   
+    
+    // Score Test Team
+    team_controller -> addTeam(tmp_team);
+
+    auto all_teams = team_controller -> GetAllTeams();
+
+    for (auto & it : all_teams) {
+        it.finalTeamDisplay();
+    }
+    */
+    
 
 
 

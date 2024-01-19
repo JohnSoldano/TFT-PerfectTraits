@@ -121,7 +121,10 @@ CMakeFiles/PerfectTraits.dir/src/ParseCSV.cpp.obj: D:/MyProjects/TFT/TFT-Perfect
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdint.h
 
 CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/Team.cpp \
+  D:/MyProjects/TFT/TFT-PerfectTraits/include/ParseCSV.h \
   D:/MyProjects/TFT/TFT-PerfectTraits/include/Team.h \
+  D:/MyProjects/TFT/TFT-PerfectTraits/include/Trait.h \
+  D:/MyProjects/TFT/TFT-PerfectTraits/include/TraitController.h \
   D:/MyProjects/TFT/TFT-PerfectTraits/include/Unit.h \
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/ctype.h \
@@ -152,11 +155,13 @@ CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTrai
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/codecvt.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/fstream.tcc \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
@@ -178,6 +183,7 @@ CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTrai
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/sstream.tcc \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
@@ -217,6 +223,7 @@ CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTrai
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/fstream \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ios \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
@@ -224,8 +231,10 @@ CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTrai
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/istream \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/map \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/basic_file.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++io.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_base.h \
@@ -237,6 +246,7 @@ CMakeFiles/PerfectTraits.dir/src/Team.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTrai
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/new \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/numeric \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ostream \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/sstream \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/string \
@@ -855,6 +865,7 @@ CMakeFiles/PerfectTraits.dir/src/UnitController.cpp.obj: D:/MyProjects/TFT/TFT-P
 CMakeFiles/PerfectTraits.dir/src/main.cpp.obj: D:/MyProjects/TFT/TFT-PerfectTraits/src/main.cpp \
   D:/MyProjects/TFT/TFT-PerfectTraits/include/ParseCSV.h \
   D:/MyProjects/TFT/TFT-PerfectTraits/include/Team.h \
+  D:/MyProjects/TFT/TFT-PerfectTraits/include/TeamController.h \
   D:/MyProjects/TFT/TFT-PerfectTraits/include/Trait.h \
   D:/MyProjects/TFT/TFT-PerfectTraits/include/TraitController.h \
   D:/MyProjects/TFT/TFT-PerfectTraits/include/Unit.h \
@@ -1239,6 +1250,10 @@ D:/MyProjects/TFT/TFT-PerfectTraits/src/Team.cpp:
 
 D:/MyProjects/TFT/TFT-PerfectTraits/include/Team.h:
 
+D:/MyProjects/TFT/TFT-PerfectTraits/include/Trait.h:
+
+D:/MyProjects/TFT/TFT-PerfectTraits/include/TraitController.h:
+
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/unordered_map.h:
 
 D:/MyProjects/TFT/TFT-PerfectTraits/include/Unit.h:
@@ -1278,10 +1293,6 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/utility:
 D:/MyProjects/TFT/TFT-PerfectTraits/src/TeamController.cpp:
 
 D:/MyProjects/TFT/TFT-PerfectTraits/include/TeamController.h:
-
-D:/MyProjects/TFT/TFT-PerfectTraits/include/Trait.h:
-
-D:/MyProjects/TFT/TFT-PerfectTraits/include/TraitController.h:
 
 D:/MyProjects/TFT/TFT-PerfectTraits/src/Trait.cpp:
 

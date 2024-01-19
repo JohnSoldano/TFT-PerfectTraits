@@ -45,8 +45,8 @@ struct init {
 	bool oneCost = 1;
     bool twoCost = 1;
     bool threeCost = 1;
-    bool fourCost = 1;
-    bool fiveCost = 1;
+    bool fourCost = 0;
+    bool fiveCost = 0;
     std::vector<bool> filter = {oneCost, twoCost, threeCost, fourCost, fiveCost};
 
 

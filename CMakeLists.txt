@@ -22,17 +22,17 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Add strict compilation flags
 # add_compile_options(-Wall -Wextra -Werror -pedantic -Wshadow -Wnon-virtual-dtor)
 # Add strict compilation flags
-add_compile_options(
-    -Wall -Wextra -Werror
-    -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused 
-    -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation 
-    -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -Wformat=2 
-    -pedantic-errors
-)
+# add_compile_options(
+#     -Wall -Wextra -Werror
+#     -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused 
+#     -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation 
+#     -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -Wformat=2 
+#     -pedantic-errors
+# )
 
-if (CMAKE_COMPILER_IS_GNUCXX)
-    add_compile_options(-Weffc++)
-endif()
+# if (CMAKE_COMPILER_IS_GNUCXX)
+#     add_compile_options(-Weffc++)
+# endif()
 
 include_directories(
   ${PROJECT_SOURCE_DIR}/include

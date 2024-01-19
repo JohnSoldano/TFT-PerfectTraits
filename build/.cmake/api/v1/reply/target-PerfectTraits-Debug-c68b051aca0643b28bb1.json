@@ -14,7 +14,6 @@
 		"commands" : 
 		[
 			"add_executable",
-			"add_compile_options",
 			"include_directories"
 		],
 		"files" : 
@@ -35,18 +34,6 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 34,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
 				"line" : 37,
 				"parent" : 0
 			}
@@ -59,104 +46,20 @@
 			[
 				{
 					"fragment" : "-g -std=gnu++1z"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wall"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wextra"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Werror"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wshadow"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wnon-virtual-dtor"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wold-style-cast"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wcast-align"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wunused"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Woverloaded-virtual"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wpedantic"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wconversion"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wsign-conversion"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wmisleading-indentation"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wduplicated-cond"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wlogical-op"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wnull-dereference"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wuseless-cast"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wdouble-promotion"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wformat=2"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-pedantic-errors"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-Weffc++"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 2,
 					"path" : "D:/MyProjects/TFT/TFT-PerfectTraits/include"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 2,
 					"path" : "D:/MyProjects/TFT/TFT-PerfectTraits/tests"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 2,
 					"path" : "D:/MyProjects/TFT/TFT-PerfectTraits/src"
 				}
 			],
