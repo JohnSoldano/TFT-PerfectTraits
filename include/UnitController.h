@@ -43,7 +43,7 @@ class UnitController {
             int filterValues;
 
             // Must go in reverse for iterative removal.
-            for (size_t i = all_units.size() - 1; i > 0; i--) {
+            for (int i = all_units.size() - 1; i >= 0; i--) {
 
                 // Name of Unit
                 std::string name = all_units.at(i) -> getName();

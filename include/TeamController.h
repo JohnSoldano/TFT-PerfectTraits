@@ -30,11 +30,14 @@ class TeamController {
 
         // Verify team passing conditions for saving..
         void scoreTeam(Team * team) {
-            auto team_partial_traits = team -> getTraitCount();
+            auto team_partial_traits = team -> GetTeamPartialScore();
 
             // Add more conditions here for valid teams.
-            if (team_partial_traits["Partial"] <= min_partial_traits) {
+            if (team_partial_traits <= min_partial_traits) {
                 addTeam(team);
+
+                // Display passing team
+                final_teams.at(final_teams.size() - 1).finalTeamDisplay();
             }
         }
         // Returns all teams

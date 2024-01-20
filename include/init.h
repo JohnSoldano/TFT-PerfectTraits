@@ -48,6 +48,7 @@ struct init {
     bool fourCost = 0;
     bool fiveCost = 0;
     std::vector<bool> filter = {oneCost, twoCost, threeCost, fourCost, fiveCost};
+    std::vector<std::string> filter_nums = {"1", "2", "3", "4", "5"};
 
 
 	/**
@@ -78,6 +79,21 @@ struct init {
             std::cout << tiers.at(i) << "\t" << filter.at(i) << std::endl;
         }
         std::cout << std::endl;
+    }
+
+    std::string createOutputFileName(std::string txt_or_csv) {
+        std::string cost;
+        for (int i = 0; i < filter.size(); i++) {
+            if (filter.at(i)) {
+                cost += filter_nums.at(i);
+            }
+        }
+
+        std::string path_out = "Units" + std::to_string(teamSize);
+        path_out += "_Cost" + cost;
+        path_out += txt_or_csv;
+
+        return path_out;
     }
 };
 

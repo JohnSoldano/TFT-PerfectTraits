@@ -176,6 +176,25 @@ class Team {
         // Show formatted trait count
         void displayCounts();
 
+        // Display Team Thresholds for a given team..
+        void displayTeamThresholds() {
+            std::string trait_id;
+
+            for (const auto & it : team_trait_threshold) {
+                trait_id = it.first;
+
+
+                // Trait Name
+                std::cout << trait_id << ": ";
+
+                // Sum of traits from team
+                std::cout << trait_count[trait_id] << "/";
+
+                // Trait value for the threshold
+                std::cout << std::get<0>(it.second) << std::endl;
+            }
+        }
+
         // Display Final Team Data.
         void finalTeamDisplay();
 
@@ -184,6 +203,14 @@ class Team {
 
         // Returns total score for team.
         int GetTeamTotalScore() { return team_total_score["Total"]; }
+
+        // Display Second formatted team
+        void displayTeamTwo();
+
+        // Returns assigned no. of teamID
+        int GetTeamNumber() { return team_number; }
+
+        std::map<std::string, std::tuple<int, int>> GetTraitThresholds() { return team_trait_threshold; }
 };
 
 #endif // TEAM_H

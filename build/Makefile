@@ -296,6 +296,30 @@ src/UnitController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/UnitController.cpp.s
 .PHONY : src/UnitController.cpp.s
 
+src/global.obj: src/global.cpp.obj
+.PHONY : src/global.obj
+
+# target to build an object file
+src/global.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/global.cpp.obj
+.PHONY : src/global.cpp.obj
+
+src/global.i: src/global.cpp.i
+.PHONY : src/global.i
+
+# target to preprocess a source file
+src/global.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/global.cpp.i
+.PHONY : src/global.cpp.i
+
+src/global.s: src/global.cpp.s
+.PHONY : src/global.s
+
+# target to generate assembly for a file
+src/global.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PerfectTraits.dir\build.make CMakeFiles/PerfectTraits.dir/src/global.cpp.s
+.PHONY : src/global.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -350,6 +374,9 @@ help:
 	@echo ... src/UnitController.obj
 	@echo ... src/UnitController.i
 	@echo ... src/UnitController.s
+	@echo ... src/global.obj
+	@echo ... src/global.i
+	@echo ... src/global.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

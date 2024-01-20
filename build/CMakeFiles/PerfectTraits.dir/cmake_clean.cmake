@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/PerfectTraits.dir/src/Unit.cpp.obj.d"
   "CMakeFiles/PerfectTraits.dir/src/UnitController.cpp.obj"
   "CMakeFiles/PerfectTraits.dir/src/UnitController.cpp.obj.d"
+  "CMakeFiles/PerfectTraits.dir/src/global.cpp.obj"
+  "CMakeFiles/PerfectTraits.dir/src/global.cpp.obj.d"
   "CMakeFiles/PerfectTraits.dir/src/main.cpp.obj"
   "CMakeFiles/PerfectTraits.dir/src/main.cpp.obj.d"
   "PerfectTraits.exe"

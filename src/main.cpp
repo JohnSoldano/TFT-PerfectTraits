@@ -3,11 +3,11 @@
     +===========+
     +   To Do   +
     +===========+
+        *   [2024/01/20] - Create class with different iteration implementation. Add `generateCombinationsIterative` and others..
+
         *   [2024/01/08] - Calculate how many possibile team compositions. At a fixed interval (TBD), display number of combinations remaining, percentage complete and 
                 current processing time. Update time from seconds to days, hours, minutes, seconds. This will replace the output `Thinking` which is displayed 
                 every 100,000 iterations and displays the number of seconds past. 
-
-        *   [2024/01/08] - Automatically create <B><U>meaningful<\U><\B> names for output data. The naming convention (TBD) will be returned from `init.h`.
 
         *   [2024/01/08] - Generate config (is this the correct word?) to update `init.h` with preset conditions. Once completed, 
                 this program will only need to run once at the beginning of each set.
@@ -27,6 +27,11 @@
     +===========+
     + Completed +
     +===========+
+        *   [2024/01/08] - Automatically create <B><U>meaningful<\U><\B> names for output data. The naming convention (TBD) will be returned from `init.h`.
+
+            [2024/01/20] - Added weak implementation.
+
+
         *   [2024/01/08] - A memory error occurs when iterating unit permutations. This error does not occur when calling `delete obj` after each iteration. 
             `delete obj` has the unintend effect of removing reference to the object satisfying the conditions needed for storing.
             A possible (unconfirmed) solution is to replace std::vector<Obj *> myVector with std::vector<std::unique_ptr<Obj> myVector.
@@ -54,12 +59,7 @@
 #include "Team.h"
 #include "TeamController.h"
 
-
-// #include <global.h>
-// #include <ctime>
-// #include <algorithm>
-// #include "CombController.h"
-// #include "TraitController.h"
+#include "global.h"
 
 void generateCombinationsIterative(
     int n, int k,
@@ -108,6 +108,7 @@ void generateCombinationsIterative(
 }
 
 int main() {
+    // User Settings
     init in;
 
     // For a given path to data and filter initialize class for creating units.
@@ -125,62 +126,15 @@ int main() {
     // Get Final Trait Map
     auto TraitMap = trait_controller -> GetTraitMap();
 
-    // Test team
-    // std::vector<Unit *> tmp_units = {Units.at(0), Units.at(3), Units.at(36), Units.at(57)};
-    // Team * tmp_team = new Team(tmp_units, TraitMap);
-    // tmp_team -> finalTeamDisplay();
+    // Add this to 
+    generateCombinationsIterative(Units.size(), in.teamSize, Units, TraitMap, team_controller);
 
-
-
-    generateCombinationsIterative(10, 4, Units, TraitMap, team_controller);
-    auto all_teams = team_controller -> GetAllTeams();
-    for (auto & it : all_teams) {
-        it.finalTeamDisplay();
-    }
-
-    /*
-   
-    
-    // Score Test Team
-    team_controller -> addTeam(tmp_team);
-
+    // Data to be saved..
     auto all_teams = team_controller -> GetAllTeams();
 
-    for (auto & it : all_teams) {
-        it.finalTeamDisplay();
-    }
-    */
-    
-
-
-
-
-
-    // Find final teams.
-    // CombController * combCtrl = new CombController(Units.size(), in.teamSize);
-
-    // Remove this later
-    // std::cout << combCtrl -> Get_nCk_size() << std::endl; // Reminder...
-
-    // Output to console
-    // in.displayConfig();
-
-    // FindTeams is broken..
-    // for (const auto & it : Traits.myMap) {
-    //     std::cout << it.first << ": ";
-    //     for (const auto & jt : it.second -> getTraitThreshold()) {
-    //         std::cout << jt << " ";
-    //     }
-    //     std::cout << std::endl;
-    // }
-
-    // Create final teams  
-    // Return Passing teams in a vector
-    // std::vector<Team> final_teams = combCtrl -> FindTeams(Units, Traits, in);
-
-    // Save output
-    // OutputTXT("results/P0_L8_12345.txt", final_teams);
-    // OutputCSV("results/P0_L8_12345", final_teams);
+    // // Save output
+    OutputTXT("results/" + in.createOutputFileName(".txt"), all_teams);
+    OutputCSV("results/" + in.createOutputFileName(".csv"), all_teams);
 
     return 0;
 }

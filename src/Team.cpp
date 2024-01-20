@@ -53,6 +53,13 @@ void Team::displayTeam() {
     }
 }
 
+void Team::displayTeamTwo() {
+    for (const auto & it : team) {
+        std::cout << it -> getName();
+        std::cout << " (" << it -> getTier() << ")" << std::endl;
+    }
+}
+
 // Show formatted trait count
 void Team::displayCounts() {
     // Display the counts
@@ -64,8 +71,8 @@ void Team::displayCounts() {
 // Display Final Team Data.
 void Team::finalTeamDisplay() {
         auto num_units = team.size();
-        int totalTotal = team_total_score["Total"];
-        int totalPartial = team_total_score["Partial"];
+        int score_partial = team_total_score["Total"];
+        int score_total = team_total_score["Partial"];
 
         // Display Size, Traits, etcs
         std::cout << std::endl;
@@ -73,27 +80,19 @@ void Team::finalTeamDisplay() {
         std::cout << "\t\tTeam ID: " << team_number << std::endl;
         Team::dumbTableThing();
         std::cout << "Team Size: " << num_units << std::endl;
-        std::cout << "Total Traits: " << totalTotal << std::endl;
-        std::cout << "Partial Traits: " << totalPartial << std::endl;
+        std::cout << "Total Traits: " << score_partial << std::endl;
+        std::cout << "Partial Traits: " << score_total << std::endl;
         std::cout << "Avg Cost: " << Team::getAvgCost() << std::endl;
         std::cout << std::endl;
 
-        // Display Units...
-        for (auto & t : team) {
-            std::cout << t -> getName() << " (" << t -> getCost() << ")" << std::endl;
-        }
+        // Print all units within the team
+        displayTeamTwo();
+
         std::cout << std::endl;
 
-        for (auto & x : team_trait_threshold) {
-            auto foo = x.second;
-            std::cout << x.first << ": " << std::get<0>(foo) << "/" << std::get<1>(foo) << std::endl;
-            // std::cout << x.first << ": " << x.second["Trait"] << "/" << x.second["Threshold"] << std::endl;
-        }
+        // Print threshold
+        displayTeamThresholds();
 
-        // Display Totals..
-        // for (auto & x : team_totals) {
-        //     std::cout << x.first << ": " << x.second["Trait"] << "/" << x.second["Threshold"] << std::endl;
-        // }
         Team::dumbTableThing();
         std::cout << std::endl;
     }

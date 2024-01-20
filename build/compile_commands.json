@@ -46,5 +46,11 @@
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\PerfectTraits.dir\\src\\TeamController.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\TeamController.cpp",
   "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/TeamController.cpp",
   "output": "CMakeFiles/PerfectTraits.dir/src/TeamController.cpp.obj"
+},
+{
+  "directory": "D:/MyProjects/TFT/TFT-PerfectTraits/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/PerfectTraits.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\PerfectTraits.dir\\src\\global.cpp.obj -c D:\\MyProjects\\TFT\\TFT-PerfectTraits\\src\\global.cpp",
+  "file": "D:/MyProjects/TFT/TFT-PerfectTraits/src/global.cpp",
+  "output": "CMakeFiles/PerfectTraits.dir/src/global.cpp.obj"
 }
 ]

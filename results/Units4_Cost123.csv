@@ -1,0 +1,9 @@
+TeamID, Unit, Tier, Partial_Traits, Total_Traits, Traits
+1, Amumu, 3, 0, 4, Emo_Guardian
+1, Pantheon, 2, 0, 4, PunkRock_Guardian
+1, Twitch, 2, 0, 4, PunkRock_Executioner
+1, Vex, 3, 0, 4, Emo_Executioner
+2, Jinx, 1, 1, 4, PunkRock_Quickshot
+2, Kennen, 1, 1, 4, TrueDamage_Superfan_Guardian
+2, Pantheon, 2, 1, 4, PunkRock_Guardian
+2, Senna, 2, 1, 4, TrueDamage_Quickshot

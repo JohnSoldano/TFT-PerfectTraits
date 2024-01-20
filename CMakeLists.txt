@@ -55,10 +55,7 @@ add_executable(
   src/Team.cpp
   src/TeamController.cpp
 
-  # src/Team.cpp
-  # src/global.cpp
-  
-  # src/CombController.cpp
+  src/global.cpp
 )
 
 # target_link_libraries(PerfectTraits PRIVATE nlohmann_json::nlohmann_json)
